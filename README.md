@@ -1,6 +1,8 @@
 Gigablue Universe HD
 ========
+![alt tag](INFO/Gigablue-Universe-Preview.jpg)
 
+Recommended Picons: HD Picons 300x130! Use Picon Manager plugin to download!
 
 ##**Screenshots**
 

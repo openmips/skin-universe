@@ -69,60 +69,60 @@
   <font filename="/usr/share/fonts/tuxtxt.ttf" name="Console" scale="100" />
   <font filename="/usr/share/fonts/nmsbd.ttf" name="Arial" scale="100" />
   <font filename="/usr/share/enigma2/GBUniverseHD/fonts/meteocons.ttf" name="Meteo" scale="100" />
-  <font filename="/usr/share/enigma2/GBUniverseHD/fonts/Universe-Heavy.otf" name="Regular" scale="95" />
+  <font filename="/usr/share/enigma2/GBUniverseHD/fonts/Universe-Regular.ttf" name="Regular" scale="110" />
   <font filename="/usr/share/enigma2/GBUniverseHD/fonts/Universe-Heavy.otf" name="Universe-Heavy" scale="120" />
   <font filename="/usr/share/enigma2/GBUniverseHD/fonts/Universe-Thin.otf" name="Universe-Thin" scale="120" />
   <font filename="/usr/share/enigma2/GBUniverseHD/fonts/Universe-Regular.ttf" name="Universe-Regular" scale="110" />
-  <font filename="/usr/share/enigma2/GBUniverseHD/fonts/Universe-Regular-Bold.ttf" name="Universe-Regular-Bold" scale="110" />
+  <font filename="/usr/share/enigma2/GBUniverseHD/fonts/Universe-Regular-Thin.ttf" name="Universe-Regular-Thin" scale="110" />
 </fonts>
   <parameters>
-    <parameter name="FileListName" value="68,4,1000,34" />
-    <parameter name="FileListIcon" value="7,4,52,37" />
-    <parameter name="FileListMultiName" value="90,3,1000,32" />
-    <parameter name="FileListMultiIcon" value="45, 4, 30, 30" />
-    <parameter name="FileListMultiLock" value="2,0,36,36" />
-    <parameter name="ChoicelistDash" value="0,10,1000,30" />
-    <parameter name="ChoicelistName" value="68,10,1000,30" />
-    <parameter name="ChoicelistIcon" value="7,3,52,38" />
-    <parameter name="PluginBrowserName" value="20,20,55" />
-    <parameter name="PluginBrowserDescr" value="20,52,25" />
-    <parameter name="PluginBrowserIcon" value="767,10,150,60" />
-    <parameter name="PluginBrowserDownloadName" value="120,18,28" />
-    <parameter name="PluginBrowserDownloadDescr" value="120,52,25" />
-    <parameter name="PluginBrowserDownloadIcon" value="15,0,90,76" />
-    <parameter name="ServiceInfo" value="0,5,450,50" />
-    <parameter name="ServiceInfoLeft" value="20,5,450,45" />
-    <parameter name="ServiceInfoRight" value="450,5,1000,45" />
-    <parameter name="SelectionListDescr" value="945,3,1000,32" />
-    <parameter name="SelectionListLock" value="99,2,36,36" />
-    <parameter name="ConfigListSeperator" value="300" />
-    <parameter name="VirtualKeyboard" value="68,68" />
-    <parameter name="PartnerBoxEntryListName" value="8,2,225,38" />
-    <parameter name="PartnerBoxEntryListIP" value="180,2,225,38" />
-    <parameter name="PartnerBoxEntryListPort" value="405,2,150,38" />
-    <parameter name="PartnerBoxEntryListType" value="615,2,150,38" />
-    <parameter name="PartnerBoxTimerServicename" value="0,0,45" />
-    <parameter name="PartnerBoxTimerName" value="0,42,30" />
-    <parameter name="PartnerBoxE1TimerTime" value="0,78,255,30" />
-    <parameter name="PartnerBoxE1TimerState" value="255,78,255,30" />
-    <parameter name="PartnerBoxE2TimerTime" value="0,78,225,30" />
-    <parameter name="PartnerBoxE2TimerState" value="225,78,225,30" />
-    <parameter name="PartnerBoxE2TimerIcon" value="1050,8,20,20" />
-    <parameter name="PartnerBoxE2TimerIconRepeat" value="1050,38,20,20" />
-    <parameter name="PartnerBoxBouquetListName" value="0,0,45" />
-    <parameter name="PartnerBoxChannelListName" value="0,0,45" />
-    <parameter name="PartnerBoxChannelListTitle" value="0,42,30" />
-    <parameter name="PartnerBoxChannelListTime" value="0,78,225,30" />
-    <parameter name="HelpMenuListHlp" value="0,0,900,42" />
-    <parameter name="HelpMenuListExtHlp0" value="0,0,900,39" />
-    <parameter name="HelpMenuListExtHlp1" value="0,42,900,30" />
-    <parameter name="AboutHddSplit" value="1" />
-    <parameter name="DreamexplorerName" value="62,0,1200,38" />
-    <parameter name="DreamexplorerIcon" value="15,4,30,30" />
-    <parameter name="PicturePlayerThumb" value="30,285,45,300,30,25" />
-    <parameter name="PlayListName" value="38,2,1000,34" />
-    <parameter name="PlayListIcon" value="7,7,24,24" />
-  </parameters>
+  <parameter name="FileListName" value="68,4,1000,34" />
+  <parameter name="FileListIcon" value="7,4,52,37" />
+  <parameter name="FileListMultiName" value="90,3,1000,32" />
+  <parameter name="FileListMultiIcon" value="45, 4, 30, 30" />
+  <parameter name="FileListMultiLock" value="2,0,36,36" />
+  <parameter name="ChoicelistDash" value="0,10,1000,30" />
+  <parameter name="ChoicelistName" value="68,10,1000,30" />
+  <parameter name="ChoicelistIcon" value="7,3,52,38" />
+  <parameter name="PluginBrowserName" value="20,16,55" />
+  <parameter name="PluginBrowserDescr" value="20,52,25" />
+  <parameter name="PluginBrowserIcon" value="767,10,150,60" />
+  <parameter name="PluginBrowserDownloadName" value="120,18,28" />
+  <parameter name="PluginBrowserDownloadDescr" value="120,52,25" />
+  <parameter name="PluginBrowserDownloadIcon" value="15,0,90,76" />
+  <parameter name="ServiceInfo" value="0,5,450,50" />
+  <parameter name="ServiceInfoLeft" value="20,5,450,45" />
+  <parameter name="ServiceInfoRight" value="450,5,1000,45" />
+  <parameter name="SelectionListDescr" value="945,3,1000,32" />
+  <parameter name="SelectionListLock" value="99,2,36,36" />
+  <parameter name="ConfigListSeperator" value="300" />
+  <parameter name="VirtualKeyboard" value="68,68" />
+  <parameter name="PartnerBoxEntryListName" value="8,2,225,38" />
+  <parameter name="PartnerBoxEntryListIP" value="180,2,225,38" />
+  <parameter name="PartnerBoxEntryListPort" value="405,2,150,38" />
+  <parameter name="PartnerBoxEntryListType" value="615,2,150,38" />
+  <parameter name="PartnerBoxTimerServicename" value="0,0,45" />
+  <parameter name="PartnerBoxTimerName" value="0,42,30" />
+  <parameter name="PartnerBoxE1TimerTime" value="0,78,255,30" />
+  <parameter name="PartnerBoxE1TimerState" value="255,78,255,30" />
+  <parameter name="PartnerBoxE2TimerTime" value="0,78,225,30" />
+  <parameter name="PartnerBoxE2TimerState" value="225,78,225,30" />
+  <parameter name="PartnerBoxE2TimerIcon" value="1050,8,20,20" />
+  <parameter name="PartnerBoxE2TimerIconRepeat" value="1050,38,20,20" />
+  <parameter name="PartnerBoxBouquetListName" value="0,0,45" />
+  <parameter name="PartnerBoxChannelListName" value="0,0,45" />
+  <parameter name="PartnerBoxChannelListTitle" value="0,42,30" />
+  <parameter name="PartnerBoxChannelListTime" value="0,78,225,30" />
+  <parameter name="HelpMenuListHlp" value="0,0,900,42" />
+  <parameter name="HelpMenuListExtHlp0" value="0,0,900,39" />
+  <parameter name="HelpMenuListExtHlp1" value="0,42,900,30" />
+  <parameter name="AboutHddSplit" value="1" />
+  <parameter name="DreamexplorerName" value="62,0,1200,38" />
+  <parameter name="DreamexplorerIcon" value="15,4,30,30" />
+  <parameter name="PicturePlayerThumb" value="30,285,45,300,30,25" />
+  <parameter name="PlayListName" value="38,2,1000,34" />
+  <parameter name="PlayListIcon" value="7,7,24,24" />
+</parameters>
   <subtitles>
     <sub name="Subtitle_TTX" font="Universe-Regular;30" shadowColor="#40101010" shadowOffset="3,3" />
     <sub name="Subtitle_Regular" font="Universe-Regular;30" foregroundColor="undcdcdc" shadowColor="#40101010" shadowOffset="3,3" />
@@ -421,7 +421,7 @@
     <eLabel backgroundColor="grey" size="231,40" foregroundColor="skin-foreground" position="1612,157" font="Universe-Heavy; 20" transparent="1" halign="right" text="Exit" />
   </screen>
   <screen name="PANEL_SETTINGS_SETUP">
-    <widget name="config" position="74,166" size="1500,750" itemHeight="35" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="grey" transparent="1" valign="top" font="Universe-Regular; 20" />
+    <widget name="config" position="74,166" size="1500,750" itemHeight="36" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="grey" transparent="1" valign="top" font="Universe-Regular; 22" />
     <widget name="description" position="73,937" size="1502,90" font="Universe-Regular; 20" halign="left" backgroundColor="skin-background-colored" transparent="1" zPosition="2" valign="top" />
   </screen>
   <screen name="PANEL_CONFIG_DESCRIPTION">
@@ -463,7 +463,7 @@
     <widget source="Title" render="Label" position="78,294" size="1464,50" font="Universe-Heavy; 35" backgroundColor="skin-background" transparent="1" noWrap="1" />
     <eLabel text="Channel selection" position="391,48" size="900,82" font="Universe-Heavy; 50" transparent="1" valign="top" zPosition="0" backgroundColor="background" />
     <eLabel position="391,150" size="163,10" backgroundColor="grey" foregroundColor="skin-progress-background" />
-    <widget name="list" selectionPixmap="GBUniverseHD/construct/backgrounds/background-selection.png" fieldMargins="20" position="63,346" size="1497,692" scrollbarMode="showNever" colorServiceDescription="skin-foreground" colorServiceDescriptionSelected="skin-foreground" progressbarHeight="20" progressBarWidth="200" progressbarBorderWidth="0" colorEventProgressbar="#00777777" colorEventProgressbarSelected="#00777777" foregroundColorServiceNotAvail="grey" serviceItemHeight="40" serviceNumberFont="Universe-Regular;26" serviceNameFont="Universe-Regular-Bold;26" serviceInfoFont="Universe-Regular;26" transparent="1" foregroundColor="skin-foreground" backgroundColor="darkgrey" itemHeight="40" zPosition="1" />
+    <widget name="list" selectionPixmap="GBUniverseHD/construct/backgrounds/background-selection.png" fieldMargins="20" position="63,346" size="1497,692" scrollbarMode="showNever" colorServiceDescription="skin-foreground" colorServiceDescriptionSelected="skin-foreground" progressbarHeight="20" progressBarWidth="200" progressbarBorderWidth="0" colorEventProgressbar="#00777777" colorEventProgressbarSelected="#00777777" foregroundColorServiceNotAvail="grey" serviceItemHeight="40" serviceNumberFont="Universe-Regular-Thin;26" serviceNameFont="Universe-Regular;26" serviceInfoFont="Universe-Regular-Thin;26" transparent="1" foregroundColor="skin-foreground" backgroundColor="darkgrey" itemHeight="40" zPosition="1" />
     <widget source="ServiceEvent" render="Label" position="566,120" size="700,25" font="Universe-Heavy; 20" backgroundColor="background" transparent="1" valign="center" noWrap="1" foregroundColor="skin-foreground">
       <convert type="EventName">Name</convert>
     </widget>
@@ -480,7 +480,7 @@
     <widget source="ServiceEvent" render="Progress" position="391,150" size="163,10" borderWidth="0" backgroundColor="skin-progress-background" pixmap="GBUniverseHD/colors/00ffffff.png" transparent="1" zPosition="1">
       <convert type="EventTime">Progress</convert>
     </widget>
-    <widget source="ServiceEvent" render="Label" position="65,180" size="1497,96" font="Universe-Regular-Bold; 18" backgroundColor="background" transparent="1" valign="top" zPosition="0">
+    <widget source="ServiceEvent" render="Label" position="65,180" size="1497,96" font="Universe-Regular; 18" backgroundColor="background" transparent="1" valign="top" zPosition="0">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
     <widget position="62,40" size="300,130" render="Picon" source="ServiceEvent" alphatest="blend" zPosition="2">
@@ -537,7 +537,7 @@
     <widget source="Service" render="Label" position="479,120" size="115,25" font="Universe-Thin; 20" backgroundColor="background" transparent="1" halign="right">
       <convert type="MovieInfo">FileSize</convert>
     </widget>
-    <widget source="Service" render="Label" position="65,155" size="1497,121" font="Universe-Regular-Bold; 18" backgroundColor="background" transparent="1" valign="top" zPosition="0">
+    <widget source="Service" render="Label" position="65,155" size="1497,121" font="Universe-Regular; 18" backgroundColor="background" transparent="1" valign="top" zPosition="0">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
     <widget name="waitingtext" position="0,0" size="0,0" />
@@ -550,8 +550,8 @@
     <panel name="PANEL_BUTTONS_MENU" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/epg.png" position="1635,785" size="232,254" alphatest="blend" />
     <eLabel text="EPG Selection" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
-    <widget name="list" position="83,294" size="1457,732" font="Universe-Heavy; 29" zPosition="3" itemHeight="35" scrollbarMode="showOnDemand" backgroundColor="skin-background" transparent="1" />
-    <widget source="Event" render="Label" position="65,135" size="1497,96" font="Universe-Regular-Bold; 18" backgroundColor="background" transparent="1" valign="top" zPosition="0">
+    <widget name="list" position="83,294" size="1457,732" font="Universe-Regular; 29" zPosition="3" itemHeight="35" scrollbarMode="showOnDemand" backgroundColor="skin-background" transparent="1" />
+    <widget source="Event" render="Label" position="65,135" size="1497,96" font="Universe-Regular; 18" backgroundColor="background" transparent="1" valign="top" zPosition="0">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
     <widget name="now_button_sel" position="86,277" size="150,5" zPosition="2" pixmap="GBUniverseHD/colors/00ffffff.png" />
@@ -595,7 +595,7 @@
     <panel name="PANEL_WINDOW_MEDIUM" />
     <eLabel text="Common Interface" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
     <widget name="text" position="75,162" size="911,60" font="Universe-Heavy; 28" backgroundColor="skin-background" transparent="1" />
-    <widget name="entries" position="63,233" size="937,792" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="skin-background" transparent="1" />
+    <widget name="entries" position="63,233" size="937,792" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="skin-background" transparent="1" font="Universe-Regular; 16" />
   </screen>
   <screen name="CIconfigMenu" position="0,0" size="1920,1080" title="CI Assignments" flags="wfNoBorder" backgroundColor="transparent">
     <panel name="PANEL_TOP" />
@@ -847,7 +847,7 @@
     <eLabel text="Plugin Browser" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/plugins.png" position="1635,785" size="232,254" alphatest="blend" />
     <panel name="PANEL_WINDOW_MEDIUM" />
-    <widget name="list" position="63,165" size="937,855" scrollbarMode="showNever" backgroundColor="skin-background" enableWrapAround="1" transparent="1" itemHeight="80" />
+    <widget name="list" position="63,165" font="Universe-Heavy;30" size="937,855" scrollbarMode="showNever" backgroundColor="skin-background" enableWrapAround="1" transparent="1" itemHeight="80" />
     <panel name="PANEL_BUTTONS_MENU" />
     <panel name="PANEL_BUTTONS_RGB_X_LARGE" />
   </screen>
@@ -945,15 +945,14 @@
   </screen>
   <!-- Messagebox -->
   <screen name="MessageBoxTemplate">
-  <widget name="text" position="73,166" size="913,650" font="Universe-Heavy; 24" transparent="1" />
-  <panel name="PANEL_WINDOW_MEDIUM" />
-  <widget name="ErrorPixmap" pixmap="GBUniverseHD/construct/message/attention.png" position="1635,785" size="232,254" alphatest="blend" />
-  <widget name="QuestionPixmap" pixmap="GBUniverseHD/construct/message/question.png" position="1635,785" size="232,254" alphatest="blend" />
-  <widget name="InfoPixmap" pixmap="GBUniverseHD/construct/message/info.png" position="1635,785" size="232,254" alphatest="blend" />
-  <widget name="WarningPixmap" pixmap="GBUniverseHD/construct/message/warning.png" position="1635,785" size="232,254" alphatest="blend" />
-  <widget name="list" position="73,827" size="913,200" font="Universe-Heavy; 26" zPosition="2" transparent="1" valign="bottom" itemHeight="32" />
- 
-</screen>
+    <widget name="text" position="73,166" size="913,650" font="Universe-Regular; 24" transparent="1" />
+    <panel name="PANEL_WINDOW_MEDIUM" />
+    <widget name="ErrorPixmap" pixmap="GBUniverseHD/construct/message/attention.png" position="1635,785" size="232,254" alphatest="blend" />
+    <widget name="QuestionPixmap" pixmap="GBUniverseHD/construct/message/question.png" position="1635,785" size="232,254" alphatest="blend" />
+    <widget name="InfoPixmap" pixmap="GBUniverseHD/construct/message/info.png" position="1635,785" size="232,254" alphatest="blend" />
+    <widget name="WarningPixmap" pixmap="GBUniverseHD/construct/message/warning.png" position="1635,785" size="232,254" alphatest="blend" />
+    <widget name="list" position="73,827" size="913,200" font="Universe-Heavy; 26" zPosition="2" transparent="1" valign="bottom" itemHeight="32" />
+  </screen>
   <screen name="MessageBox" position="0,0" size="1920,1080" title="Message" flags="wfNoBorder" backgroundColor="transparent">
     <panel name="PANEL_SYMBOL" />
     <panel name="PANEL_TOP_TITLE" />
@@ -1067,15 +1066,14 @@
     <widget source="session.FrontendInfo" render="Label" position="573,147" size="118,25" font="Universe-Heavy; 20" halign="left" valign="center" backgroundColor="background" transparent="1">
       <convert type="FrontendInfo">STRING,10</convert>
     </widget>
-<widget source="session.CurrentService" render="CiModuleControl" allVisible="1" position="690,146" size="120,25" halign="left" valign="center" borderWidth="0" zPosition="1" backgroundColor="background" foregroundColor="skin-foreground" transparent="1" font="Universe-Heavy;20" />
-<widget source="session.HddSleepingState" render="Pixmap" pixmap="GBUniverseHD/construct/general/hdd.png" size="19,16" position="855,149" zPosition="1" alphatest="blend">
-  <convert type="ConditionalShowHide" />
-</widget>
-<widget source="session.CurrentService" render="Pixmap" pixmap="GBUniverseHD/construct/general/stream.png" size="19,16" position="880,149" zPosition="1" alphatest="blend">
- <convert type="ClientsStreaming" />
-  <convert type="ConditionalShowHide" />
-</widget>
-
+    <widget source="session.CurrentService" render="CiModuleControl" allVisible="1" position="690,146" size="120,25" halign="left" valign="center" borderWidth="0" zPosition="1" backgroundColor="background" foregroundColor="skin-foreground" transparent="1" font="Universe-Heavy;20" />
+    <widget source="session.HddSleepingState" render="Pixmap" pixmap="GBUniverseHD/construct/general/hdd.png" size="19,16" position="855,149" zPosition="1" alphatest="blend">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="Pixmap" pixmap="GBUniverseHD/construct/general/stream.png" size="19,16" position="880,149" zPosition="1" alphatest="blend">
+      <convert type="ClientsStreaming" />
+      <convert type="ConditionalShowHide" />
+    </widget>
     <eLabel text="SNR" position="491,120" size="60,25" font="Universe-Thin; 20" halign="left" valign="center" backgroundColor="background" transparent="1" noWrap="1" />
     <widget source="session.FrontendStatus" render="Label" position="546,120" size="90,25" font="Universe-Heavy; 20" backgroundColor="background" transparent="1" halign="left" noWrap="1">
       <convert type="FrontendInfo">SNR</convert>
@@ -1092,7 +1090,7 @@
       <convert type="ServiceInfo">VideoHeight</convert>
     </widget>
     <eLabel position="62,772" size="1800,265" zPosition="-100" backgroundColor="skin-transparency" />
-</screen>
+  </screen>
   <screen position="0,0" size="1920,1080" name="ZapHistoryBrowser" flags="wfNoBorder" backgroundColor="transparent">
     <panel name="PANEL_TOP" />
     <panel name="PANEL_BUTTONS_RGYB_X" />
@@ -1193,7 +1191,7 @@
     <panel name="PANEL_TOP" />
     <panel name="PANEL_WINDOW_LARGE" />
     <eLabel text="Please choose an extension..." position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
-    <widget name="list" position="73,169" size="1500,853" font="Universe-Heavy; 32" zPosition="3" itemHeight="35" scrollbarMode="showOnDemand" backgroundColor="skin-background" foregroundColor="skin-foreground" transparent="1" />
+    <widget name="list" position="73,169" size="1500,853" font="Universe-Regular; 32" zPosition="3" itemHeight="35" scrollbarMode="showOnDemand" backgroundColor="skin-background" foregroundColor="skin-foreground" transparent="1" />
   </screen>
   <screen name="AudioSelection" title="Audio" position="center,center" size="1920,1080" backgroundColor="transparent">
     <panel name="PANEL_TOP" />
@@ -1317,7 +1315,7 @@
     <panel name="PANEL_BUTTONS_RGB_X_PLAIN" />
     <eLabel text="GBAspectRatioSwitch Setup" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/fullscreen.png" zPosition="10" position="1635,785" size="232,254" alphatest="blend" />
-    <widget name="config" position="73,159" size="913,700" scrollbarMode="showOnDemand" transparent="1" font="Universe-Heavy; 22" />
+    <widget name="config" position="73,159" size="913,700" scrollbarMode="showOnDemand" transparent="1" font="Universe-Regular; 22" />
     <widget name="label" position="73,868" size="913,160" font="Universe-Regular; 28" halign="left" transparent="1" backgroundColor="skin-background-colored" valign="bottom" />
     <widget name="buttonred" zPosition="1" backgroundColor="background" size="231,40" foregroundColor="skin-foreground" position="1612,278" font="Universe-Heavy; 20" transparent="1" halign="right" />
     <widget name="buttongreen" zPosition="1" backgroundColor="background" size="231,40" foregroundColor="skin-foreground" position="1612,338" font="Universe-Heavy; 20" transparent="1" halign="right" />
@@ -2725,22 +2723,18 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <ePixmap pixmap="GBUniverseHD/construct/symbols/console.png" position="1635,785" size="232,254" alphatest="blend" />
   </screen>
   <screen name="ServerEditor" title="Import Bouquets" position="0, 0" flags="wfNoBorders" transparent="0" backgroundColor="transparent" size="1920, 1080">
-	<panel name="PANEL_TOP_TITLE" />
-	<panel name="PANEL_BUTTONS_SOURCE_RGYB_X_LARGE" />
-	<panel name="PANEL_WINDOW_MEDIUM" />
-	<panel name="PANEL_CONFIG" />
-	 <ePixmap pixmap="GBUniverseHD/construct/symbols/streamingclients.png" position="1635,785" size="232,254" alphatest="blend" />
-
-</screen>
+    <panel name="PANEL_TOP_TITLE" />
+    <panel name="PANEL_BUTTONS_SOURCE_RGYB_X_LARGE" />
+    <panel name="PANEL_WINDOW_MEDIUM" />
+    <panel name="PANEL_CONFIG" />
+    <ePixmap pixmap="GBUniverseHD/construct/symbols/streamingclients.png" position="1635,785" size="232,254" alphatest="blend" />
+  </screen>
   <screen name="StreamingChannelFromServerScreen" position="0, 0" flags="wfNoBorders" transparent="0" backgroundColor="transparent" size="1920, 1080">
-	<panel name="PANEL_TOP_TITLE" />
-	<panel name="PANEL_BUTTONS_SOURCE_RGYB_X_LARGE" />
-	<panel name="PANEL_WINDOW_MEDIUM" />
-
-	 <ePixmap pixmap="GBUniverseHD/construct/symbols/streamingclients.png" position="1635,785" size="232,254" alphatest="blend" />
-	<widget name="list" position="73,220" size="913,800" font="Universe-Regular;24" foregroundColor="skin-foreground" transparent="1" />
-	<widget source="statusbar" render="Label" position="73,170" zPosition="10" size="913,40" halign="left" valign="center" font="Universe-Heavy; 22" transparent="1" shadowColor="black" shadowOffset="-1,-1" backgroundColor="skin-background" />
-
-
-</screen>
+    <panel name="PANEL_TOP_TITLE" />
+    <panel name="PANEL_BUTTONS_SOURCE_RGYB_X_LARGE" />
+    <panel name="PANEL_WINDOW_MEDIUM" />
+    <ePixmap pixmap="GBUniverseHD/construct/symbols/streamingclients.png" position="1635,785" size="232,254" alphatest="blend" />
+    <widget name="list" position="73,220" size="913,800" font="Universe-Regular;24" foregroundColor="skin-foreground" transparent="1" />
+    <widget source="statusbar" render="Label" position="73,170" zPosition="10" size="913,40" halign="left" valign="center" font="Universe-Regular; 22" transparent="1" backgroundColor="skin-background" />
+  </screen>
 </skin>

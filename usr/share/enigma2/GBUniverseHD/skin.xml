@@ -2,6 +2,8 @@
   <!-- GIGABLUE UniverseHD v0.8a by SINTHEX DESIGNAGENTUR | www.sinthex.de | optimized for openMIPS; USAGE ONLY ALLOWED ON GIGABLUE DEVICES -->
   <!-- You can modify and redistribute it as long as you keep this license and the original author for the skin. Usage is only allowed on Gigablue devices! -->
   <!-- PICONS: HD Picons 300x130 required! Use PiconManager plugin! -->
+  <!-- skin-background-colored - lightblue: #0061b8da; blue: #007392bd; violett: #00a658d3; red: #00d67c67; green: #00b5d364; pink: #00d7618b -->
+  <!-- skin-transparency - more transparent: #ffaaaaaa; default: #bbaaaaaa; less transparent: #66aaaaaa; not transparent: #00aaaaaa-->
   <output id="0">
     <resolution xres="1920" yres="1080" bpp="32" />
   </output>
@@ -20,13 +22,13 @@
     <color name="red" value="#00f23d21" />
     <color name="rssviewtop" value="#45005050" />
     <color name="skin-background" value="#40aaaaaa" />
-    <color name="skin-background-colored" value="#0061b8da" />
+    <color name="skin-background-colored" value="#007392bd" />
     <color name="skin-foreground" value="#00ffffff" />
     <color name="skin-progress" value="#00ffffff" />
     <color name="skin-progress-background" value="#aaffffff" />
     <color name="skin-selection-background" value="#cceeeeee" />
     <color name="skin-selection-foreground" value="#00ffffff" />
-    <color name="skin-transparency" value="#66aaaaaa" />
+    <color name="skin-transparency" value="#bbaaaaaa" />
     <color name="transparent" value="#ff000000" />
     <color name="transpBlack" value="#80000000" />
     <color name="transpWhite" value="#77ffffff" />
@@ -208,7 +210,6 @@
   </screen>
   <screen name="PANEL_BUTTONS_RGB_X_PLAIN">
     <ePixmap pixmap="GBUniverseHD/construct/backgrounds/background-exit-button.png" size="10,55" position="1850,142" />
-
     <eLabel backgroundColor="red" size="10,55" position="1850,263" />
     <eLabel backgroundColor="green" size="10,55" position="1850,323" />
     <eLabel backgroundColor="yellow" size="10,55" position="1850,383" />
@@ -372,7 +373,7 @@
     <eLabel backgroundColor="red" size="10,55" position="1850,263" />
     <widget name="languagetext" zPosition="1" backgroundColor="grey" size="365,40" foregroundColor="skin-foreground" position="1478,278" font="Universe-Heavy; 20" transparent="1" halign="right" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/gigablue.png" position="1635,785" size="232,254" alphatest="blend" />
-    <widget name="text" position="73,167" size="913,400" font="Universe-Heavy;30" backgroundColor="skin-background" transparent="1" />
+    <widget name="text" position="73,167" size="913,400" font="Universe-Regular; 30" backgroundColor="skin-background" transparent="1" />
     <widget source="list" render="Listbox" position="63,584" size="937,431" zPosition="13" scrollbarMode="showOnDemand" transparent="1" selectionPixmap="GBUniverseHD/construct/backgrounds/background-selection.png">
       <convert type="TemplatedMultiContent">{"template": [ MultiContentEntryText(pos = (20, 12), size = (903, 43), flags = RT_HALIGN_LEFT, text = 0) ],
 		"fonts": [gFont("Universe-Heavy", 20)],
@@ -458,10 +459,10 @@
     <panel name="PANEL_WINDOW_DETAILS" />
     <panel name="PANEL_BUTTONS_RGYB_X" />
     <panel name="PANEL_BUTTONS_MENU" />
-    <widget source="Title" render="Label" position="78,294" size="1464,50" font="Universe-Heavy; 35" backgroundColor="grey" transparent="1" noWrap="1" />
+    <widget source="Title" render="Label" position="78,294" size="1464,50" font="Universe-Heavy; 35" backgroundColor="skin-background" transparent="1" noWrap="1" />
     <eLabel text="Channel selection" position="391,48" size="900,82" font="Universe-Heavy; 50" transparent="1" valign="top" zPosition="0" backgroundColor="background" />
     <eLabel position="391,150" size="163,10" backgroundColor="grey" foregroundColor="skin-progress-background" />
-    <widget name="list" selectionPixmap="GBUniverseHD/construct/backgrounds/background-selection.png" fieldMargins="20" position="63,346" size="1497,692" scrollbarMode="showNever" colorServiceDescription="skin-foreground" colorServiceDescriptionSelected="skin-foreground" progressbarHeight="20" progressBarWidth="200" progressbarBorderWidth="0" colorEventProgressbar="skin-foreground" foregroundColorServiceNotAvail="grey" serviceItemHeight="40" serviceNumberFont="Universe-Regular;26" serviceNameFont="Universe-Heavy;26" serviceInfoFont="Universe-Regular;26" transparent="1" foregroundColor="skin-foreground" backgroundColor="skin-background" itemHeight="40" zPosition="1" />
+    <widget name="list" selectionPixmap="GBUniverseHD/construct/backgrounds/background-selection.png" fieldMargins="20" position="63,346" size="1497,692" scrollbarMode="showNever" colorServiceDescription="skin-foreground" colorServiceDescriptionSelected="skin-foreground" progressbarHeight="20" progressBarWidth="200" progressbarBorderWidth="0" colorEventProgressbar="#00777777" colorEventProgressbarSelected="#00777777" foregroundColorServiceNotAvail="grey" serviceItemHeight="40" serviceNumberFont="Universe-Regular;26" serviceNameFont="Universe-Heavy;26" serviceInfoFont="Universe-Regular;26" transparent="1" foregroundColor="skin-foreground" backgroundColor="darkgrey" itemHeight="40" zPosition="1" />
     <widget source="ServiceEvent" render="Label" position="566,120" size="700,25" font="Universe-Heavy; 20" backgroundColor="background" transparent="1" valign="center" noWrap="1" foregroundColor="skin-foreground">
       <convert type="EventName">Name</convert>
     </widget>
@@ -478,7 +479,7 @@
     <widget source="ServiceEvent" render="Progress" position="391,150" size="163,10" borderWidth="0" backgroundColor="skin-progress-background" pixmap="GBUniverseHD/colors/00ffffff.png" transparent="1" zPosition="1">
       <convert type="EventTime">Progress</convert>
     </widget>
-    <widget source="ServiceEvent" render="Label" position="65,180" size="1497,96" font="Universe-Heavy; 18" backgroundColor="background" transparent="1" valign="top" zPosition="0">
+    <widget source="ServiceEvent" render="Label" position="65,180" size="1497,96" font="Universe-Regular; 18" backgroundColor="background" transparent="1" valign="top" zPosition="0">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
     <widget position="62,40" size="300,130" render="Picon" source="ServiceEvent" alphatest="blend" zPosition="2">
@@ -535,7 +536,7 @@
     <widget source="Service" render="Label" position="479,120" size="115,25" font="Universe-Thin; 20" backgroundColor="background" transparent="1" halign="right">
       <convert type="MovieInfo">FileSize</convert>
     </widget>
-    <widget source="Service" render="Label" position="65,155" size="1497,121" font="Universe-Heavy; 18" backgroundColor="background" transparent="1" valign="top" zPosition="0">
+    <widget source="Service" render="Label" position="65,155" size="1497,121" font="Universe-Regular; 18" backgroundColor="background" transparent="1" valign="top" zPosition="0">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
     <widget name="waitingtext" position="0,0" size="0,0" />
@@ -549,7 +550,7 @@
     <ePixmap pixmap="GBUniverseHD/construct/symbols/epg.png" position="1635,785" size="232,254" alphatest="blend" />
     <eLabel text="EPG Selection" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
     <widget name="list" position="83,294" size="1457,732" font="Universe-Heavy; 29" zPosition="3" itemHeight="35" scrollbarMode="showOnDemand" backgroundColor="skin-background" transparent="1" />
-    <widget source="Event" render="Label" position="65,135" size="1497,96" font="Universe-Heavy; 18" backgroundColor="background" transparent="1" valign="top" zPosition="0">
+    <widget source="Event" render="Label" position="65,135" size="1497,96" font="Universe-Regular; 18" backgroundColor="background" transparent="1" valign="top" zPosition="0">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
     <widget name="now_button_sel" position="86,277" size="150,5" zPosition="2" pixmap="GBUniverseHD/colors/00ffffff.png" />
@@ -571,7 +572,7 @@
     <widget source="Title" render="Picon" position="64,39" size="200,80" zPosition="5" transparent="1" alphatest="blend">
       <convert type="PaxRefString">CurrentRef</convert>
     </widget>
-    <widget name="epg_description" position="79,230" size="904,720" font="Universe-Heavy; 24" backgroundColor="skin-background" transparent="1" zPosition="-1" valign="top" />
+    <widget name="epg_description" position="79,230" size="904,737" font="Universe-Regular; 24" backgroundColor="skin-background" transparent="1" zPosition="-1" valign="top" />
     <widget name="channel" position="79,172" size="881,50" font="Universe-Heavy; 35" backgroundColor="grey" transparent="1" valign="center" noWrap="1" foregroundColor="skin-foreground" />
     <ePixmap name="progressbar-back" position="63,1026" size="936,10" zPosition="2" alphatest="blend" pixmap="GBUniverseHD/colors/bb000000.png" />
     <widget source="session.Event_Now" render="Progress" position="63,1026" size="936,10" borderWidth="0" backgroundColor="skin-progress-background" foregroundColor="skin-progress" transparent="1" zPosition="4">
@@ -1168,6 +1169,8 @@ listsize = (wsizex, lenlist)
     <ePixmap pixmap="GBUniverseHD/construct/symbols/gigablue.png" position="1635,785" size="232,254" alphatest="blend" />
     <widget source="AboutHeader" render="Label" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
     <panel name="PANEL_WINDOW_MEDIUM" />
+    <eLabel backgroundColor="white" size="10,55" position="1850,203" />
+    <eLabel backgroundColor="grey" size="418,40" foregroundColor="skin-foreground" position="1425,218" font="Universe-Heavy; 20" text="INFO" transparent="1" halign="right" />
     <widget name="AboutScrollLabel" split="1" dividechar=":" position="73,169" size="913,840" valign="top" font="Universe-Regular; 20" backgroundColor="skin-background" transparent="1" halign="left" noWrap="1" />
     <panel name="PANEL_BUTTONS_RGYB_X_LARGE" />
   </screen>
@@ -1175,7 +1178,7 @@ listsize = (wsizex, lenlist)
     <panel name="PANEL_TOP_TITLE" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/gigablue.png" position="1635,785" size="232,254" alphatest="blend" />
     <panel name="PANEL_WINDOW_LARGE" />
-    <widget name="AboutScrollLabel" font="Universe-Heavy; 18" position="73,169" size="1499,803" zPosition="2" halign="left" backgroundColor="skin-background" transparent="1" />
+    <widget name="AboutScrollLabel" font="Universe-Regular; 18" position="73,169" size="1499,803" zPosition="2" halign="left" backgroundColor="skin-background" transparent="1" />
     <ePixmap position="73,985" size="36,36" zPosition="10" pixmap="GBUniverseHD/construct/general/left.png" transparent="1" alphatest="blend" />
     <ePixmap position="1534,985" size="36,36" zPosition="10" pixmap="GBUniverseHD/construct/general/right.png" transparent="1" alphatest="blend" />
     <panel name="PANEL_BUTTONS_R_X" />
@@ -1253,21 +1256,15 @@ listsize = (wsizex, lenlist)
     <eLabel text="QuickZap" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
     <widget name="channel" position="523,52" size="389,78" font="Universe-Heavy; 50" valign="center" backgroundColor="background" halign="right" foregroundColor="skin-foreground" transparent="1" />
     <widget name="number" position="926,52" size="180,78" halign="left" valign="center" font="Universe-Thin; 50" backgroundColor="background" foregroundColor="skin-foreground" transparent="1" />
-   <ePixmap position="1635,785" size="232,254" zPosition="-9" pixmap="GBUniverseHD/construct/backgrounds/background-symbol.png" transparent="0" alphatest="blend" />
-  
- </screen>
-  <screen name="NumberZapWithName" position="0,0" size="1050,830" title="QuickZap" flags="wfNoBorder" backgroundColor="transparent">
+    <ePixmap position="1635,785" size="232,254" zPosition="-9" pixmap="GBUniverseHD/construct/backgrounds/background-symbol.png" transparent="0" alphatest="blend" />
+  </screen>
+  <screen name="NumberZapWithName" position="0,0" size="1920,1080" title="QuickZap" flags="wfNoBorder" backgroundColor="transparent">
     <panel name="PANEL_TOP" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/numberzap.png" position="1635,785" size="232,254" alphatest="blend" />
     <widget name="servicename" position="295,52" size="1070,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
- 
-       <widget name="servicebouquet" position="285,135" size="989,30" font="Universe-Heavy; 28" valign="top" backgroundColor="background" halign="left" foregroundColor="skin-foreground" transparent="1" />
+    <widget name="servicebouquet" position="285,135" size="989,30" font="Universe-Heavy; 28" valign="top" backgroundColor="background" halign="left" foregroundColor="skin-foreground" transparent="1" />
     <widget name="servicenumber" position="63,52" size="223,78" halign="right" valign="center" font="Universe-Thin; 50" backgroundColor="background" foregroundColor="skin-foreground" transparent="1" />
-   <ePixmap position="1635,785" size="232,254" zPosition="-9" pixmap="GBUniverseHD/construct/backgrounds/background-symbol.png" transparent="0" alphatest="blend" />
-  
-
-
-
+    <ePixmap position="1635,785" size="232,254" zPosition="-9" pixmap="GBUniverseHD/construct/backgrounds/background-symbol.png" transparent="0" alphatest="blend" />
   </screen>
   <screen name="picshow" position="0,0" size="1920,1080" title="PicturePlayer" flags="wfNoBorder" backgroundColor="transparent">
     <panel name="PANEL_TOP" />
@@ -1286,7 +1283,6 @@ listsize = (wsizex, lenlist)
     <panel name="PANEL_BUTTONS_SOURCE_R_X" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/pictures.png" position="1635,785" size="232,254" alphatest="blend" />
     <eLabel text="PicturePlayer-ExifInfo" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
-    
     <widget source="key_red" render="Label" position="0,0" zPosition="1" size="0,0" font="Universe-Regular;20" halign="center" valign="center" backgroundColor="un9f1313" transparent="1" />
     <widget source="menu" render="Listbox" position="73,170" size="913,850" scrollbarMode="showOnDemand" selectionDisabled="1" zPosition="1" itemHeight="40" transparent="1">
       <convert type="TemplatedMultiContent">{
@@ -1309,7 +1305,7 @@ listsize = (wsizex, lenlist)
     <widget source="Service" render="Label" position="73,170" size="750,50" font="Universe-Heavy; 35" halign="left" backgroundColor="skin-background" transparent="1">
       <convert type="ServiceName">Name</convert>
     </widget>
-    <widget source="Event" render="Label" position="73,830" size="913,200" font="Universe-Heavy; 18" backgroundColor="skin-background-colored" foregroundColor="skin-foreground" transparent="1" valign="top">
+    <widget source="Event" render="Label" position="73,830" size="913,200" font="Universe-Regular; 18" backgroundColor="skin-background-colored" foregroundColor="skin-foreground" transparent="1" valign="top">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
   </screen>
@@ -1327,7 +1323,7 @@ listsize = (wsizex, lenlist)
     <panel name="PANEL_WINDOW_MEDIUM" />
     <panel name="PANEL_BUTTONS_SOURCE_RGYB_X" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/openwebif.png" position="1635,785" size="232,254" alphatest="blend" />
-    <widget name="lab1" position="73,957" halign="left" size="907,72" zPosition="1" font="Universe-Heavy; 25" valign="top" transparent="1" backgroundColor="skin-background-colored" />
+    <widget name="lab1" position="73,941" halign="left" size="907,88" zPosition="1" font="Universe-Regular; 25" valign="top" transparent="1" backgroundColor="skin-background-colored" />
     <widget name="config" position="73,167" size="913,758" scrollbarMode="showOnDemand" transparent="1" />
   </screen>
   <screen name="ChoiceBox" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
@@ -1344,7 +1340,7 @@ listsize = (wsizex, lenlist)
     <eLabel text="GBAspectRatioSwitch Setup" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/fullscreen.png" zPosition="10" position="1635,785" size="232,254" alphatest="blend" />
     <widget name="config" position="73,159" size="913,700" scrollbarMode="showOnDemand" transparent="1" font="Universe-Heavy; 22" />
-    <widget name="label" position="73,868" size="913,160" font="Universe-Heavy; 28" halign="left" transparent="1" backgroundColor="skin-background-colored" valign="bottom" />
+    <widget name="label" position="73,868" size="913,160" font="Universe-Regular; 28" halign="left" transparent="1" backgroundColor="skin-background-colored" valign="bottom" />
     <widget name="buttonred" zPosition="1" backgroundColor="background" size="231,40" foregroundColor="skin-foreground" position="1612,278" font="Universe-Heavy; 20" transparent="1" halign="right" />
     <widget name="buttongreen" zPosition="1" backgroundColor="background" size="231,40" foregroundColor="skin-foreground" position="1612,338" font="Universe-Heavy; 20" transparent="1" halign="right" />
   </screen>
@@ -1409,7 +1405,7 @@ listsize = (wsizex, lenlist)
     <eLabel backgroundColor="red" size="10,55" position="1850,263" />
     <widget name="languagetext" zPosition="1" backgroundColor="grey" size="365,40" foregroundColor="skin-foreground" position="1478,278" font="Universe-Heavy; 20" transparent="1" halign="right" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/gigablue.png" position="1635,785" size="232,254" alphatest="blend" />
-    <widget name="text" position="73,167" size="913,400" font="Universe-Heavy;30" backgroundColor="skin-background" transparent="1" />
+    <widget name="text" position="73,167" size="913,400" font="Universe-Regular; 30" backgroundColor="skin-background" transparent="1" />
     <widget source="list" render="Listbox" position="73,584" size="913,431" zPosition="13" scrollbarMode="showOnDemand" transparent="1">
       <convert type="TemplatedMultiContent">{"template": [ MultiContentEntryText(pos = (20, 2), size = (760, 43), flags = RT_HALIGN_LEFT, text = 0) ],
 		"fonts": [gFont("Universe-Heavy", 30)],
@@ -1425,26 +1421,18 @@ listsize = (wsizex, lenlist)
     <panel name="PANEL_WINDOW_MEDIUM" />
     <panel name="PANEL_CONFIG_SPACE" />
     <widget name="header" position="73,941" size="913,35" font="Universe-Regular;24" backgroundColor="skin-background-colored" transparent="1" />
-    
     <widget name="footer" position="73,987" size="913,35" font="Universe-Regular; 22" halign="left" backgroundColor="skin-background-colored" transparent="1" />
-  <ePixmap pixmap="GBUniverseHD/construct/symbols/antenna.png" position="1635,785" size="232,254" alphatest="blend" />
-    
-</screen>
+    <ePixmap pixmap="GBUniverseHD/construct/symbols/antenna.png" position="1635,785" size="232,254" alphatest="blend" />
+  </screen>
   <screen name="ScanSetup" position="0,0" size="1920,1080" title="Service scan" flags="wfNoBorder" backgroundColor="transparent">
-
-
     <panel name="PANEL_TOP" />
     <eLabel text="Service scan" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
     <panel name="PANEL_WINDOW_MEDIUM" />
     <panel name="PANEL_CONFIG_SPACE" />
     <widget name="header" position="73,941" size="913,35" font="Universe-Regular;24" backgroundColor="skin-background-colored" transparent="1" />
-    
     <widget name="introduction" position="73,987" size="913,35" font="Universe-Regular; 22" halign="left" backgroundColor="skin-background-colored" transparent="1" />
-  <ePixmap pixmap="GBUniverseHD/construct/symbols/antenna.png" position="1635,785" size="232,254" alphatest="blend" />
-    
-
-
-</screen>
+    <ePixmap pixmap="GBUniverseHD/construct/symbols/antenna.png" position="1635,785" size="232,254" alphatest="blend" />
+  </screen>
   <screen name="ServiceScan" position="0,0" size="1920,1080" title="Service Scan" flags="wfNoBorder" backgroundColor="transparent">
     <panel name="PANEL_TOP" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/antenna.png" position="1635,785" size="232,254" alphatest="blend" />
@@ -1457,8 +1445,8 @@ listsize = (wsizex, lenlist)
     <widget name="pass" position="73,271" size="913,40" font="Universe-Heavy;32" backgroundColor="skin-background" transparent="1" />
     <widget name="scan_progress" position="63,1026" size="937,10" backgroundColor="skin-progress" pixmap="GBUniverseHD/colors/00ffffff.png" transparent="1" zPosition="10" />
     <widget name="servicelist" position="73,376" size="913,637" itemHeight="30" selectionDisabled="1" transparent="1" />
- <ePixmap name="progressbar-back" position="63,1028" size="937,10" alphatest="blend" pixmap="GBUniverseHD/colors/bb000000.png" />
- </screen>
+    <ePixmap name="progressbar-back" position="63,1028" size="937,10" alphatest="blend" pixmap="GBUniverseHD/colors/bb000000.png" />
+  </screen>
   <screen name="NimSelection" position="0,0" size="1920,1080" title="Choose Tuner" flags="wfNoBorder" backgroundColor="transparent">
     <panel name="PANEL_TOP" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/scan.png" position="1635,785" size="232,254" alphatest="blend" />
@@ -1568,7 +1556,7 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <panel name="PANEL_WINDOW_LARGE" />
     <panel name="PANEL_BUTTONS_SOURCE_RG_X" />
     <widget name="config" position="74,166" size="1500,750" itemHeight="40" selectionPixmap="GBUniverseHD/construct/backgrounds/background-selection.png" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="grey" transparent="1" valign="top" font="Universe-Heavy; 20" />
-    <widget source="introduction" render="Label" position="73,937" size="1502,90" font="Universe-Heavy; 25" halign="left" backgroundColor="skin-background-colored" transparent="1" zPosition="2" valign="top" />
+    <widget source="introduction" render="Label" position="73,937" size="1502,90" font="Universe-Regular; 25" halign="left" backgroundColor="skin-background-colored" transparent="1" zPosition="2" valign="top" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/devices.png" position="1635,785" size="232,254" alphatest="blend" />
   </screen>
   <screen name="InputDeviceSelection" position="0, 0" flags="wfNoBorder" transparent="0" backgroundColor="transparent" size="1920, 1080">
@@ -1627,16 +1615,16 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <ePixmap pixmap="GBUniverseHD/construct/symbols/videowave.png" position="1635,785" size="232,254" alphatest="blend" />
     <eLabel text="Extended settings" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
     <widget name="config" position="73,160" size="917,740" itemHeight="30" scrollbarMode="showOnDemand" backgroundColor="skin-background" transparent="1" />
-    <widget name="description" position="73,920" size="917,100" font="Universe-Heavy; 25" halign="left" backgroundColor="skin-background-colored" transparent="1" zPosition="2" valign="top" />
+    <widget name="description" position="73,920" size="917,100" font="Universe-Regular; 25" halign="left" backgroundColor="skin-background-colored" transparent="1" zPosition="2" valign="top" />
   </screen>
   <screen name="VideoEnhancementPreview" position="0, 0" flags="wfNoBorder" transparent="0" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP" />
- <panel name="PANEL_CONFIG_SPACE" />
-<panel name="PANEL_WINDOW_MEDIUM" />
+    <panel name="PANEL_CONFIG_SPACE" />
+    <panel name="PANEL_WINDOW_MEDIUM" />
     <panel name="PANEL_BUTTONS_SOURCE_RG_X" />
-<ePixmap pixmap="GBUniverseHD/construct/symbols/videos.png" position="1635,785" size="232,254" alphatest="blend" />
+    <ePixmap pixmap="GBUniverseHD/construct/symbols/videos.png" position="1635,785" size="232,254" alphatest="blend" />
     <eLabel text="Extended settings preview" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
-    <widget source="introduction" render="Label" position="73,942" size="913,80" font="Universe-Heavy; 20" halign="left" valign="bottom" transparent="1" backgroundColor="skin-background-colored" />
+    <widget source="introduction" render="Label" position="73,942" size="913,80" font="Universe-Regular; 20" halign="left" valign="bottom" transparent="1" backgroundColor="skin-background-colored" />
   </screen>
   <screen name="HddMount" position="0, 0" flags="wfNoBorder" transparent="0" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP" />
@@ -1652,7 +1640,7 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <panel name="PANEL_BUTTONS_RGYB_X" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/devices.png" position="1635,785" size="232,254" alphatest="blend" />
     <eLabel text="Partitions" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" zPosition="-1" />
-    <widget name="label_disk" position="73,960" font="Universe-Heavy; 35" halign="center" size="913,70" valign="center" transparent="1" backgroundColor="skin-background-colored" />
+    <widget name="label_disk" position="73,960" font="Universe-Regular; 35" halign="center" size="913,70" valign="center" transparent="1" backgroundColor="skin-background-colored" />
     <widget source="menu" render="Listbox" position="73,160" size="917,790" scrollbarMode="showOnDemand" transparent="1">
       <convert type="TemplatedMultiContent">{"template": [
 					MultiContentEntryPixmapAlphaTest(pos = (5, 0), size = (48, 48), png = 0),
@@ -1704,7 +1692,7 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <ePixmap pixmap="GBUniverseHD/construct/symbols/disk.png" position="1635,785" size="232,254" alphatest="blend" />
     <eLabel text="Image Backup" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
     <widget name="info-hdd" position="73,170" zPosition="1" size="913,350" font="Universe-Heavy; 22" halign="left" valign="top" transparent="1" backgroundColor="skin-background" />
-    <widget name="info-usb" position="73,540" zPosition="1" size="913,480" font="Universe-Heavy; 22" halign="left" valign="top" transparent="1" backgroundColor="skin-background-colored" />
+    <widget name="info-usb" position="73,540" zPosition="1" size="913,480" font="Universe-Regular; 22" halign="left" valign="top" transparent="1" backgroundColor="skin-background-colored" />
   </screen>
   <screen name="Console" position="0, 0" flags="wfNoBorder" transparent="0" title="Command execution..." backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP_TITLE" />
@@ -1807,7 +1795,9 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <widget name="timeline4" position="0,220" zPosition="1" size="1,800" pixmap="GBUniverseHD/epg/timeline.png" />
     <widget name="timeline5" position="0,220" zPosition="1" size="1,800" pixmap="GBUniverseHD/epg/timeline.png" />
     <widget name="timeline_now" position="73,220" zPosition="2" size="30,800" pixmap="GBUniverseHD/epg/timeline-now.png" alphatest="blend" transparent="1" />
-  </screen>
+    <ePixmap position="1635,785" size="232,254" zPosition="1" pixmap="GBUniverseHD/construct/symbols/channellist.png" transparent="0" alphatest="blend" />
+ 
+</screen>
   <screen name="ChannelContextMenu" position="0, 0" flags="wfNoBorder" transparent="0" title="Channellist menu" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP_TITLE" />
     <panel name="PANEL_WINDOW_SMALL" />
@@ -1834,20 +1824,18 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <panel name="PANEL_TOP_TITLE" />
     <panel name="PANEL_WINDOW_MEDIUM" />
     <panel name="PANEL_BUTTONS_RG_X" />
-<panel name="PANEL_CONFIG" />
+    <panel name="PANEL_CONFIG" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/3d.png" position="1635,785" size="232,254" alphatest="blend" />
-  <widget name="cancel" zPosition="1" backgroundColor="background" size="231,40" foregroundColor="skin-foreground" position="1612,278" font="Universe-Heavy; 20" transparent="1" halign="right" valign="center" />
+    <widget name="cancel" zPosition="1" backgroundColor="background" size="231,40" foregroundColor="skin-foreground" position="1612,278" font="Universe-Heavy; 20" transparent="1" halign="right" valign="center" />
     <widget name="ok" zPosition="1" backgroundColor="background" size="231,40" foregroundColor="skin-foreground" position="1612,338" font="Universe-Heavy; 20" transparent="1" halign="right" valign="center" />
-    
-
- </screen>
+  </screen>
   <screen name="SwapManager" position="0, 0" flags="wfNoBorder" title="Swap File Manager" transparent="0" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP_TITLE" />
     <panel name="PANEL_BUTTONS_RGY_X" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/swap.png" position="1635,785" size="232,254" alphatest="blend" />
     <panel name="PANEL_WINDOW_SMALL" />
-    <widget name="autostart_off" pixmap="GBUniverseHD/skin_default/icons/lock_off.png" position="89,175" size="24,24" zPosition="20" alphatest="blend" />
-    <widget name="autostart_on" pixmap="GBUniverseHD/skin_default/icons/lock_on.png" position="89,175" size="24,24" zPosition="20" alphatest="blend" />
+    <widget name="autostart_off" pixmap="GBUniverseHD/skin_default/icons/lock_off.png" position="89,185" size="24,24" zPosition="20" alphatest="blend" />
+    <widget name="autostart_on" pixmap="GBUniverseHD/skin_default/icons/lock_on.png" position="89,185" size="24,24" zPosition="20" alphatest="blend" />
     <widget name="lab1" position="136,169" size="465,60" font="Universe-Regular;20" foregroundColor="skin-foreground" backgroundColor="skin-background" valign="top" transparent="1" />
     <widget name="lab2" foregroundColor="skin-foreground" backgroundColor="skin-background" position="83,258" size="150,30" font="Universe-Regular;20" valign="center" transparent="1" />
     <widget name="lab3" foregroundColor="skin-foreground" backgroundColor="skin-background" position="83,312" size="150,30" font="Universe-Regular;20" valign="center" transparent="1" />
@@ -1876,7 +1864,7 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <panel name="PANEL_TOP_TITLE" />
     <panel name="PANEL_WINDOW_MEDIUM" />
     <panel name="PANEL_CONFIG_SPACE" />
-    <widget name="help" render="Label" position="73,937" size="913,90" font="Universe-Heavy; 20" halign="left" backgroundColor="skin-background-colored" transparent="1" zPosition="2" valign="top" />
+    <widget name="help" render="Label" position="73,937" size="913,90" font="Universe-Regular; 20" halign="left" backgroundColor="skin-background-colored" transparent="1" zPosition="2" valign="top" />
     <panel name="PANEL_BUTTONS_SOURCE_RGYB_X_LARGE" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/timer.png" position="1635,785" size="232,254" alphatest="blend" />
     <widget name="HelpWindow" position="31,79" size="1,1" zPosition="1" transparent="1" alphatest="blend" />
@@ -1901,7 +1889,7 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <panel name="PANEL_CONFIG_SPACE" />
     <panel name="PANEL_BUTTONS_SOURCE_RG_X" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/timer.png" position="1635,785" size="232,254" alphatest="blend" />
-    <widget name="help" render="Label" position="73,937" size="913,90" font="Universe-Heavy; 20" halign="left" backgroundColor="skin-background-colored" transparent="1" zPosition="2" valign="top" />
+    <widget name="help" render="Label" position="73,937" size="913,90" font="Universe-Regular; 20" halign="left" backgroundColor="skin-background-colored" transparent="1" zPosition="2" valign="top" />
   </screen>
   <screen name="MPHelp" position="0, 0" flags="wfNoBorder" transparent="0" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP" />
@@ -1937,7 +1925,7 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <panel name="PANEL_BUTTONS_RGYB_X" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/timer.png" position="1635,785" size="232,254" alphatest="blend" />
     <widget name="loglist" position="73,170" size="913,700" font="Universe-Regular; 20" scrollbarMode="showOnDemand" transparent="1" />
-    <widget name="logentry" position="73,880" size="913,140" font="Universe-Heavy; 18" backgroundColor="skin-background-colored" transparent="1" valign="bottom" />
+    <widget name="logentry" position="73,880" size="913,140" font="Universe-Regular; 18" backgroundColor="skin-background-colored" transparent="1" valign="bottom" />
   </screen>
   <screen name="NumericalTextInputHelpDialog" position="704,918" size="604,125" backgroundColor="skin-background-colored" flags="wfNoBorder" zPosition="8">
     <widget name="key1" position="0,1" size="201,30" font="Console;21" halign="center" valign="center" backgroundColor="darkgrey" />
@@ -1959,7 +1947,7 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <panel name="PANEL_CONFIG_SPACE" />
     <panel name="PANEL_BUTTONS_SOURCE_RGY_X" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/network.png" position="1635,785" size="232,254" alphatest="blend" />
-    <widget source="introduction" render="Label" position="73,941" size="913,80" font="Universe-Regular; 19" backgroundColor="skin-background-colored" transparent="1" zPosition="5" />
+    <widget source="introduction" render="Label" position="73,946" size="913,80" font="Universe-Regular; 19" backgroundColor="skin-background-colored" transparent="1" zPosition="5" />
   </screen>
   <screen name="NetworkAdapterTest" position="0, 0" flags="wfNoBorder" transparent="0" title="Network test..." backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP_TITLE" />
@@ -1971,25 +1959,21 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <widget name="AdapterInfo_OK" position="672,179" size=" 30,30" pixmap="GBUniverseHD/skin_default/buttons/key_green.png" zPosition="2" alphatest="blend" />
     <widget name="AdapterInfo_Text" position="786,184" size="200,34" zPosition="2" font="Universe-Heavy;22" halign="center" valign="center" foregroundColors="#8c8c93,grey,#ffffff" backgroundColor="skin-background" transparent="1" />
     <widget name="AdapterInfo" position="786,179" size="200,34" pixmaps="GBUniverseHD/construct/general/lan-seloff.png,GBUniverseHD/construct/general/lan-sel.png" zPosition="1" alphatest="blend" />
-    
     <widget name="Networktext" position="80,341" size="400,25" zPosition="1" font="Universe-Heavy;22" backgroundColor="skin-background" transparent="1" />
     <widget name="Network" position="80,373" size="400,25" zPosition="1" font="Universe-Heavy;22" foregroundColors="#8c8c93,#f23d21,#1cff1c" backgroundColor="skin-background" transparent="1" />
     <widget name="NetworkInfo_Check" position="672,352" size=" 30,30" pixmaps="GBUniverseHD/skin_default/buttons/key_green.png,GBUniverseHD/skin_default/buttons/key_red.png" zPosition="2" alphatest="blend" />
     <widget name="NetworkInfo_Text" position="784,357" size="200,34" zPosition="2" font="Universe-Heavy;22" halign="center" valign="center" foregroundColors="#8c8c93,grey,#ffffff" backgroundColor="skin-background" transparent="1" />
     <widget name="NetworkInfo" position="784,352" size="200,35" pixmaps="GBUniverseHD/construct/general/lan-seloff.png,GBUniverseHD/construct/general/lan-sel.png" zPosition="1" alphatest="blend" />
-    
     <widget name="Dhcptext" position="80,508" size="400,25" zPosition="1" font="Universe-Heavy;22" backgroundColor="skin-background-colored" transparent="1" />
     <widget name="Dhcp" position="80,538" size="400,25" zPosition="1" font="Universe-Heavy;22" foregroundColors="#8c8c93,#f23d21,#1cff1c" backgroundColor="skin-background-colored" transparent="1" />
     <widget name="DhcpInfo_Check" position="672,515" size=" 30,30" pixmaps="GBUniverseHD/skin_default/buttons/key_green.png,GBUniverseHD/skin_default/buttons/key_red.png" zPosition="2" alphatest="blend" />
     <widget name="DhcpInfo_Text" position="784,520" size="200,35" zPosition="2" font="Universe-Heavy;22" halign="center" valign="center" foregroundColors="#8c8c93,grey,#ffffff" backgroundColor="skin-background-colored" transparent="1" />
     <widget name="DhcpInfo" position="784,515" size="200,35" pixmaps="GBUniverseHD/construct/general/lan-seloff.png,GBUniverseHD/construct/general/lan-sel.png" zPosition="1" alphatest="blend" backgroundColor="skin-background-colored" />
-    
     <widget name="IPtext" position="80,672" size="400,25" zPosition="1" font="Universe-Heavy;22" backgroundColor="skin-background-colored" transparent="1" />
     <widget position="80,703" size="400,25" zPosition="1" font="Universe-Heavy;22" foregroundColors="#8c8c93,#f23d21,#1cff1c" backgroundColor="skin-background-colored" transparent="1" name="IP" />
     <widget name="IPInfo_Check" position="672,685" size=" 30,30" pixmaps="GBUniverseHD/skin_default/buttons/key_green.png,GBUniverseHD/skin_default/buttons/key_red.png" zPosition="2" alphatest="blend" />
     <widget name="IPInfo_Text" position="784,690" size="200,34" zPosition="2" font="Universe-Heavy;22" halign="center" valign="center" foregroundColors="#8c8c93,grey,#ffffff" backgroundColor="skin-background-colored" transparent="1" />
     <widget name="IPInfo" position="784,685" size="200,35" pixmaps="GBUniverseHD/construct/general/lan-seloff.png,GBUniverseHD/construct/general/lan-sel.png" zPosition="1" alphatest="blend" backgroundColor="skin-background-colored" />
-    
     <widget name="DNStext" position="80,848" size="400,25" zPosition="1" font="Universe-Heavy;22" backgroundColor="skin-background-colored" transparent="1" />
     <widget name="DNS" position="80,878" size="400,25" zPosition="1" font="Universe-Heavy;22" foregroundColors="#8c8c93,#f23d21,#1cff1c" backgroundColor="skin-background-colored" transparent="1" />
     <widget name="DNSInfo_Check" position="672,860" size=" 30,30" pixmaps="GBUniverseHD/skin_default/buttons/key_green.png,GBUniverseHD/skin_default/buttons/key_red.png" zPosition="2" alphatest="blend" />
@@ -2016,16 +2000,14 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
 				"itemHeight": 75
 				}</convert>
     </widget>
-    <widget source="introduction" render="Label" position="73,968" size="913,50" font="Universe-Heavy;22" halign="center" backgroundColor="skin-background-colored" transparent="1" zPosition="5" />
+    <widget source="introduction" render="Label" position="73,968" size="913,50" font="Universe-Regular; 22" halign="center" backgroundColor="skin-background-colored" transparent="1" zPosition="5" />
   </screen>
   <screen name="ScanIP" position="0, 0" flags="wfNoBorder" title="Network Neighbourhood" transparent="0" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP_TITLE" />
-    
-<panel name="PANEL_WINDOW_MEDIUM" />
-<panel name="PANEL_CONFIG" />
+    <panel name="PANEL_WINDOW_MEDIUM" />
+    <panel name="PANEL_CONFIG" />
     <panel name="PANEL_BUTTONS_SOURCE_RGY_X" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/network.png" position="1635,785" size="232,254" alphatest="blend" />
-    
   </screen>
   <screen name="AutoMountManager" position="0, 0" flags="wfNoBorder" title="AutoMountManager" transparent="0" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP_TITLE" />
@@ -2074,8 +2056,7 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
 				"itemHeight": 60
 				}</convert>
     </widget>
-    <widget source="introduction" render="Label" position="73,940" size="913,80" font="Universe-Heavy; 20" halign="left" backgroundColor="skin-background-colored" transparent="1" valign="bottom" />
-    
+    <widget source="introduction" render="Label" position="73,940" size="913,80" font="Universe-Regular; 20" halign="left" backgroundColor="skin-background-colored" transparent="1" valign="bottom" />
   </screen>
   <screen name="UserManager" position="0, 0" flags="wfNoBorder" title="UserManager" transparent="0" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP_TITLE" />
@@ -2111,7 +2092,7 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
 				"itemHeight": 60
 				}</convert>
     </widget>
-    <widget source="infotext" render="Label" position="73,941" size="913,80" font="Universe-Regular; 19" backgroundColor="skin-background-colored" transparent="1" zPosition="5" />
+    <widget source="infotext" render="Label" position="73,951" size="913,80" font="Universe-Regular; 19" backgroundColor="skin-background-colored" transparent="1" zPosition="5" />
   </screen>
   <screen name="NetworkMacSetup" position="0, 0" title="MAC-adress settings" flags="wfNoBorder" transparent="0" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP_TITLE" />
@@ -2124,10 +2105,10 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
   <screen name="IPv6Setup" position="0, 0" title="IPv6 setup" flags="wfNoBorder" transparent="0" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP_TITLE" />
     <panel name="PANEL_WINDOW_MEDIUM" />
-<panel name="PANEL_CONFIG_SPACE" />
+    <panel name="PANEL_CONFIG_SPACE" />
     <panel name="PANEL_BUTTONS_SOURCE_RG_X" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/network.png" position="1635,785" size="232,254" alphatest="blend" />
-    <widget source="introduction" render="Label" position="73,945" size="913,80" font="Universe-Heavy; 18" halign="left" backgroundColor="skin-foreground" transparent="1" valign="bottom" />
+    <widget source="introduction" render="Label" position="73,945" size="913,80" font="Universe-Regular; 18" halign="left" backgroundColor="skin-foreground" transparent="1" valign="bottom" />
   </screen>
   <screen name="LanguageSelection" position="0, 0" flags="wfNoBorder" transparent="0" title="Setup Language" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP_TITLE" />
@@ -2163,9 +2144,8 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <eLabel position="73,239" size="912,56" zPosition="2" backgroundColor="skin-background" />
     <widget name="text" position="76,243" size="908,50" zPosition="3" font="Universe-Heavy;40" noWrap="1" halign="right" />
     <widget name="list" position="191,324" size="696,250" selectionDisabled="1" transparent="1" />
-  
-   <eLabel text="Encoding" zPosition="1" backgroundColor="background" size="231,40" foregroundColor="skin-foreground" position="1612,393" font="Universe-Heavy; 20" transparent="1" halign="right" />
- </screen>
+    <eLabel text="Encoding" zPosition="1" backgroundColor="background" size="231,40" foregroundColor="skin-foreground" position="1612,393" font="Universe-Heavy; 20" transparent="1" halign="right" />
+  </screen>
   <screen name="JobView" position="0, 0" flags="wfNoBorder" transparent="0" title="JobView" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP_TITLE" />
     <panel name="PANEL_WINDOW_MEDIUM" />
@@ -2178,21 +2158,18 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     </widget>
     <widget source="job_status" render="Label" position="73,545" size="913,40" font="Universe-Regular;23" transparent="1" />
     <widget name="config" position="73,592" size="913,40" backgroundColor="skin-background" foregroundColor="skin-foreground" backgroundColorSelected="skin-selection-background" foregroundColorSelected="skin-selection-foreground" transparent="1" />
-    
     <widget source="cancelable" render="FixedLabel" text="Cancel" zPosition="1" backgroundColor="background" size="434,40" foregroundColor="skin-foreground" position="1409,278" font="Universe-Heavy; 20" transparent="1" halign="right">
- <convert type="ConditionalShowHide" />
+      <convert type="ConditionalShowHide" />
     </widget>
     <widget source="finished" render="FixedLabel" text="OK" zPosition="1" backgroundColor="background" size="440,40" foregroundColor="skin-foreground" position="1403,338" font="Universe-Heavy; 20" transparent="1" halign="right">
-  <convert type="ConditionalShowHide" />
+      <convert type="ConditionalShowHide" />
     </widget>
     <widget source="backgroundable" render="FixedLabel" text="Continue in background" zPosition="1" backgroundColor="background" size="431,40" foregroundColor="skin-foreground" position="1412,459" font="Universe-Heavy; 20" transparent="1" halign="right">
-  <convert type="ConditionalShowHide" />
+      <convert type="ConditionalShowHide" />
     </widget>
-
-  <panel name="PANEL_BUTTONS_RGB_X_PLAIN" />
-  <ePixmap name="progressbar-back" position="63,1028" size="937,10" alphatest="blend" pixmap="GBUniverseHD/colors/bb000000.png" />
-
-    </screen>
+    <panel name="PANEL_BUTTONS_RGB_X_PLAIN" />
+    <ePixmap name="progressbar-back" position="63,1028" size="937,10" alphatest="blend" pixmap="GBUniverseHD/colors/bb000000.png" />
+  </screen>
   <screen name="PluginDetails" position="0, 0" flags="wfNoBorder" transparent="0" title="Plugin details" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP_TITLE" />
     <panel name="PANEL_WINDOW_MEDIUM" />
@@ -2220,7 +2197,7 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
 				"itemHeight": 75
 				}</convert>
     </widget>
-    <widget source="status" render="Label" position="73,940" size="913,80" halign="left" font="Universe-Heavy; 20" backgroundColor="skin-background-colored" transparent="1" valign="bottom" />
+    <widget source="status" render="Label" position="73,940" size="913,80" halign="left" font="Universe-Regular; 20" backgroundColor="skin-background-colored" transparent="1" valign="bottom" />
   </screen>
   <screen name="Ipkg" position="0, 0" flags="wfNoBorder" title="Installing Software..." transparent="0" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP_TITLE" />
@@ -2230,8 +2207,6 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <widget name="package" position="73,323" size="913,40" font="Universe-Regular;20" backgroundColor="skin-background" transparent="1" />
     <widget name="status" position="73,170" size="913,80" font="Universe-Heavy;26" backgroundColor="skin-background" transparent="1" />
     <widget name="activityslider" position="73,378" size="913,30" borderWidth="0" pixmap="GBUniverseHD/colors/00ffffff.png" backgroundColor="darkgrey" transparent="0" zPosition="40" />
-
-    
   </screen>
   <screen name="IpkgInstaller" position="0, 0" flags="wfNoBorder" title="IpkgInstaller" transparent="0" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP_TITLE" />
@@ -2258,7 +2233,6 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
   </screen>
   <screen name="SecondInfoBarSimple" title="Second InfoBar" position="0,0" flags="wfNoBorder" transparent="0" backgroundColor="transparent" size="1920, 1080">
     <panel name="InfoBar" />
-    
     <eLabel position="510,305" zPosition="-1" size="791,455" backgroundColor="skin-background" />
     <widget render="Label" source="session.Event_Now" position="524,357" size="765,210" font="Universe-Regular; 20" backgroundColor="skin-background" transparent="1" zPosition="5" valign="top">
       <convert type="EventName">FullDescription</convert>
@@ -2289,7 +2263,7 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <panel name="PANEL_WINDOW_MEDIUM" />
     <panel name="PANEL_TOP" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/gigablue.png" position="1635,785" size="232,254" alphatest="blend" />
-    <widget name="text" position="73,163" size="913,374" font="Universe-Heavy;30" backgroundColor="skin-background" transparent="1" />
+    <widget name="text" position="73,163" size="913,374" font="Universe-Regular; 30" backgroundColor="skin-background" transparent="1" />
     <ePixmap position="0,0" zPosition="-20" size="1920,1080" pixmap="GBUniverseHD/construct/backgrounds/movie-back.jpg" />
   </screen>
   <screen name="VideoWizard" position="0,0" size="1920,1080" title="Welcome..." flags="wfNoBorder" backgroundColor="transparent">
@@ -2298,11 +2272,10 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
   </screen>
   <screen name="AutoDiseqc" position="0, 0" flags="wfNoBorder" title="AutoDiseqc" transparent="0" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP" />
-<panel name="PANEL_WINDOW_MEDIUM" />
+    <panel name="PANEL_WINDOW_MEDIUM" />
     <panel name="PANEL_BUTTONS_SOURCE_RG_X" />
     <eLabel text="AutoDiseqc" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/antenna.png" position="1635,785" size="232,254" alphatest="blend" />
-    
     <widget name="#" position="73,302" size="913,724" zPosition="10" scrollbarMode="showOnDemand" transparent="1" backgroundColorSelected="skin-selection-background" />
     <widget source="statusbar" render="Label" position="73,170" zPosition="10" size="913,60" halign="center" valign="center" font="Universe-Regular; 24" transparent="1" shadowColor="skin-background" shadowOffset="-1,-1" />
     <widget source="tunerstatusbar" render="Label" position="73,240" zPosition="10" size="913,50" halign="center" valign="center" font="Universe-Regular; 24" transparent="1" shadowColor="skin-background" shadowOffset="-1,-1" />
@@ -2449,10 +2422,9 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
   <screen name="FTPServerEditor" title="FTPServerEditor" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
     <panel name="PANEL_TOP_TITLE" />
     <panel name="PANEL_WINDOW_MEDIUM" />
-<panel name="PANEL_CONFIG" />
+    <panel name="PANEL_CONFIG" />
     <panel name="PANEL_BUTTONS_SOURCE_RGYB_X" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/network.png" position="1635,785" size="232,254" alphatest="blend" />
-    
   </screen>
   <screen name="EnhancedMovieCenterMenu" position="center,center" size="1920,1080" title="EnhancedMovieCenterMenu" backgroundColor="transparent">
     <panel name="PANEL_TOP_TITLE" />
@@ -2798,5 +2770,14 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <eLabel backgroundColor="grey" size="231,40" foregroundColor="skin-foreground" position="1612,524" font="Universe-Heavy; 20" text="INFO" transparent="1" halign="right" />
     <eLabel backgroundColor="white" size="10,55" position="1850,570" />
     <eLabel backgroundColor="grey" size="231,40" foregroundColor="skin-foreground" position="1612,589" font="Universe-Heavy; 20" text="CH +-" transparent="1" halign="right" />
+  </screen>
+  <screen name="Troubleshoot" title="Troubleshoot" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+    <panel name="PANEL_TOP_TITLE" />
+    <panel name="PANEL_WINDOW_LARGE" />
+    <panel name="PANEL_BUTTONS_SOURCE_RG_X" />
+    <ePixmap pixmap="GBUniverseHD/construct/general/right.png" position="1533,563" size="36,36" alphatest="blend" zPosition="1" />
+    <ePixmap pixmap="GBUniverseHD/construct/general/left.png" position="76,563" size="36,36" alphatest="blend" zPosition="1" />
+    <widget name="AboutScrollLabel" font="Console;16" position="123,164" backgroundColor="background" transparent="0" size="1400,857" zPosition="2" />
+    <ePixmap pixmap="GBUniverseHD/construct/symbols/console.png" position="1635,785" size="232,254" alphatest="blend" />
   </screen>
 </skin>

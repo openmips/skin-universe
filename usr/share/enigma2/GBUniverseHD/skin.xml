@@ -443,11 +443,11 @@
     <widget source="title" render="Label" position="665,30" size="690,100" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
     <widget source="menu_path_compressed" render="Label" position="665,129" size="540,20" font="Universe-Thin; 15" transparent="1" valign="top" zPosition="0" backgroundColor="background" />
     <widget source="menu" render="Listbox" position="63,65" size="557,955" alphatest="blend" selectionPixmap="GBUniverseHD/construct/backgrounds/background-selection.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1">
-      <convert type="TemplatedMultiContent">{"template": [ MultiContentEntryText(pos = (30, 40), size = (500, 50), flags = RT_HALIGN_LEFT, text = 0) ],
-				"fonts": [gFont("Universe-Heavy", 25)],
+  <convert type="TemplatedMultiContent">{"template": [ MultiContentEntryText(pos = (30, 40), size = (500, 50), flags = RT_HALIGN_LEFT, text = 0) ],
+				"fonts": [gFont("Universe-Heavy", 24)],
 				"itemHeight": 100
 				}</convert>
-    </widget>
+</widget>
     <ePixmap alphatest="blend" position="620,50" size="46,987" zPosition="-5" pixmap="GBUniverseHD/construct/shadow/window-right.png" />
     <ePixmap alphatest="blend" position="65,1037" size="555,48" zPosition="-5" pixmap="GBUniverseHD/construct/shadow/window-bottom.png" />
     <ePixmap alphatest="blend" position="620,1037" size="46,48" zPosition="-5" pixmap="GBUniverseHD/construct/shadow/window-br.png" />
@@ -988,7 +988,7 @@
       <convert type="EventTime">EndTime</convert>
       <convert type="ClockToText">Default</convert>
     </widget>
-    <widget source="session.Event_Now" render="Label" position="83,951" size="1750,91" font="Universe-Heavy; 55" halign="left" backgroundColor="skin-background-colored" transparent="1" noWrap="1" valign="bottom">
+    <widget source="session.Event_Now" render="Label" position="88,957" size="1750,110" font="Universe-Heavy; 54" halign="left" backgroundColor="skin-background-colored" transparent="1" noWrap="1" valign="top">
       <convert type="EventName">Name</convert>
     </widget>
     <widget source="session.Event_Now" render="Label" position="335,918" size="176,40" font="Universe-Thin; 30" halign="left" backgroundColor="skin-background-colored" transparent="1">
@@ -1008,7 +1008,7 @@
       <convert type="EventTime">EndTime</convert>
       <convert type="ClockToText">Default</convert>
     </widget>
-    <widget source="session.Event_Next" render="Label" position="88,792" size="1746,57" font="Universe-Heavy; 30" halign="right" backgroundColor="grey" transparent="1" valign="bottom" zPosition="-1" noWrap="1">
+    <widget source="session.Event_Next" render="Label" position="88,778" size="1746,71" font="Universe-Heavy; 30" halign="right" backgroundColor="grey" transparent="1" valign="bottom" zPosition="-1" noWrap="1">
       <convert type="EventName">Name</convert>
     </widget>
     <widget source="session.Event_Next" render="Label" position="1681,886" size="150,35" font="Universe-Thin; 25" halign="right" backgroundColor="skin-background-colored" transparent="1">

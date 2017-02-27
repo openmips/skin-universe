@@ -33,7 +33,7 @@ skin-transparency - more transparent: #ffaaaaaa; default: #bbaaaaaa; less transp
 ![alt tag](INFO/Screenshots/Mainmenu.jpg)
 
 ###Menu green
-![alt tag](INFO/Screenshots/MenuGreen)
+![alt tag](INFO/Screenshots/MenuGreen.jpg)
 
 ###GUI menu
 ![alt tag](INFO/Screenshots/GUIMenu.jpg)

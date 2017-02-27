@@ -442,7 +442,7 @@
     <ePixmap position="1635,785" size="232,254" zPosition="-9" pixmap="GBUniverseHD/construct/backgrounds/background-symbol.png" transparent="0" alphatest="blend" />
     <widget source="title" render="Label" position="665,30" size="690,100" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
     <widget source="menu_path_compressed" render="Label" position="665,129" size="540,20" font="Universe-Thin; 15" transparent="1" valign="top" zPosition="0" backgroundColor="background" />
-    <widget source="menu" render="Listbox" position="63,65" size="557,955" alphatest="blend" selectionPixmap="GBUniverseHD/construct/backgrounds/background-selection.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1">
+    <widget source="menu" render="Listbox" position="63,74" size="557,961" alphatest="blend" selectionPixmap="GBUniverseHD/construct/backgrounds/background-selection.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1">
   <convert type="TemplatedMultiContent">{"template": [ MultiContentEntryText(pos = (30, 40), size = (500, 50), flags = RT_HALIGN_LEFT, text = 0) ],
 				"fonts": [gFont("Universe-Heavy", 24)],
 				"itemHeight": 100
@@ -700,12 +700,12 @@
     <ePixmap pixmap="GBUniverseHD/construct/symbols/ui.png" position="1635,785" size="232,254" alphatest="blend" />
   </screen>
   <screen name="menu_frontpanel_menu" position="0,0" size="1920,1080" title="Frontpanel menu" flags="wfNoBorder" backgroundColor="transparent">
-    <panel name="PANEL_TOP_TITLE" />
-    <panel name="PANEL_MENU" />
-    <panel name="PANEL_BUTTONS_FRONTPANEL" />
-    <ePixmap pixmap="GBUniverseHD/construct/symbols/frontpanel.png" position="1635,785" size="232,254" alphatest="blend" />
-    <widget source="thistory" render="Label" position="671,154" size="540,20" font="Universe-Heavy; 15" transparent="1" valign="top" zPosition="0" backgroundColor="skin-background" />
-  </screen>
+  <panel name="PANEL_TOP" />
+  <panel name="PANEL_MENU" />
+  <panel name="PANEL_BUTTONS_FRONTPANEL" />
+  <ePixmap pixmap="GBUniverseHD/construct/symbols/frontpanel.png" position="1635,785" size="232,254" alphatest="blend" />
+  <widget source="thistory" render="Label" position="671,154" size="540,20" font="Universe-Heavy; 15" transparent="1" valign="top" zPosition="0" backgroundColor="skin-background" />
+</screen>
   <screen name="menu_recording_menu" position="0,0" size="1920,1080" title="Recording menu" flags="wfNoBorder" backgroundColor="transparent">
     <panel name="PANEL_MENU" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/records.png" position="1635,785" size="232,254" alphatest="blend" />
@@ -988,7 +988,7 @@
       <convert type="EventTime">EndTime</convert>
       <convert type="ClockToText">Default</convert>
     </widget>
-    <widget source="session.Event_Now" render="Label" position="88,957" size="1750,110" font="Universe-Heavy; 54" halign="left" backgroundColor="skin-background-colored" transparent="1" noWrap="1" valign="top">
+    <widget source="session.Event_Now" render="Label" position="88,957" size="1748,110" font="Universe-Heavy; 54" halign="left" backgroundColor="skin-background-colored" transparent="1" noWrap="1" valign="top">
       <convert type="EventName">Name</convert>
     </widget>
     <widget source="session.Event_Now" render="Label" position="335,918" size="176,40" font="Universe-Thin; 30" halign="left" backgroundColor="skin-background-colored" transparent="1">

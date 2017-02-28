@@ -2203,7 +2203,7 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
       <convert type="PaxCaidDisplay">Default</convert>
     </widget>
     <ePixmap alphatest="blend" pixmap="GBUniverseHD/construct/shadow/window-right.png" position="1862,393" size="46,364" zPosition="-3" />
-    <eLabel position="62,393" size="1800,643" zPosition="-100" backgroundColor="skin-transparency" alphatest="blend" />
+    <eLabel position="62,393" size="1800,643" zPosition="-100" backgroundColor="skin-transparency" />
     <ePixmap alphatest="blend" pixmap="GBUniverseHD/construct/shadow/window-br.png" position="1862,757" size="46,48" zPosition="-3" />
   </screen>
   <screen name="SecondInfoBarSimple" title="Second InfoBar" position="0,0" flags="wfNoBorder" transparent="0" backgroundColor="transparent" size="1920, 1080">

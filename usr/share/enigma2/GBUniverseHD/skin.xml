@@ -1066,7 +1066,7 @@
     <widget source="session.FrontendInfo" render="Label" position="573,147" size="118,25" font="Universe-Heavy; 20" halign="left" valign="center" backgroundColor="background" transparent="1">
       <convert type="FrontendInfo">STRING,10</convert>
     </widget>
-    <widget source="session.CurrentService" render="CiModuleControl" allVisible="1" position="690,146" size="120,25" halign="left" valign="center" borderWidth="0" zPosition="1" backgroundColor="background" foregroundColor="skin-foreground" transparent="1" font="Universe-Heavy;20" />
+    <widget source="session.CurrentService" render="CiModuleControl" allVisible="1" position="690,147" size="120,25" halign="left" valign="center" borderWidth="0" zPosition="1" backgroundColor="background" transparent="1" font="Universe-Thin;20" />
     <widget source="session.HddSleepingState" render="Pixmap" pixmap="GBUniverseHD/construct/general/hdd.png" size="19,16" position="855,149" zPosition="1" alphatest="blend">
       <convert type="ConditionalShowHide" />
     </widget>
@@ -2199,7 +2199,7 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <widget backgroundColor="skin-background" foregroundColor="skin-foreground" font="Universe-Regular; 22" halign="right" position="984,405" render="Label" size="850,350" source="session.Event_Next" transparent="1" zPosition="1" valign="top">
       <convert type="EventName">FullDescription</convert>
     </widget>
-    <widget source="session.CurrentService" position="733,147" size="386,25" font="Universe-Heavy; 20" halign="left" valign="center" backgroundColor="darkgrey" transparent="1">
+    <widget source="session.CurrentService" render="Label" position="491,174" size="700,25" font="Universe-Thin; 20" halign="left" valign="center" backgroundColor="background" transparent="1">
       <convert type="PaxCaidDisplay">Default</convert>
     </widget>
     <ePixmap alphatest="blend" pixmap="GBUniverseHD/construct/shadow/window-right.png" position="1862,393" size="46,364" zPosition="-3" />

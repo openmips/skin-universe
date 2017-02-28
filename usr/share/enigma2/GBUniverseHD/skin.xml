@@ -21,7 +21,7 @@
     <color name="rds_text_bg" value="#00003258" />
     <color name="red" value="#00f23d21" />
     <color name="rssviewtop" value="#45005050" />
-    <color name="skin-background" value="#00aaaaaa" />
+    <color name="skin-background" value="#22999999" />
     <color name="skin-background-colored" value="#007392bd" />
     <color name="skin-foreground" value="#00ffffff" />
     <color name="skin-progress" value="#00ffffff" />
@@ -1061,15 +1061,15 @@
       <convert type="ServiceInfo">IsCrypted</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <eLabel text="TUNER" position="516,146" size="85,25" font="Universe-Thin; 20" halign="left" valign="center" backgroundColor="background" transparent="1" noWrap="1" name="re" />
-    <widget source="session.FrontendInfo" render="Label" position="598,147" size="118,25" font="Universe-Heavy; 20" halign="left" valign="center" backgroundColor="background" transparent="1">
+    <eLabel text="TUNER" position="715,146" size="85,25" font="Universe-Thin; 20" halign="left" valign="center" backgroundColor="background" transparent="1" noWrap="1" name="re" />
+    <widget source="session.FrontendInfo" render="Label" position="803,147" size="300,25" font="Universe-Heavy; 20" halign="left" valign="center" backgroundColor="background" transparent="1">
       <convert type="FrontendInfo">STRING,10</convert>
     </widget>
-    <widget source="session.CurrentService" render="CiModuleControl" allVisible="1" position="715,147" size="120,25" halign="left" valign="center" borderWidth="0" zPosition="1" backgroundColor="background" transparent="1" font="Universe-Thin;20" />
-    <widget source="session.HddSleepingState" render="Pixmap" pixmap="GBUniverseHD/construct/general/hdd.png" size="19,16" position="880,149" zPosition="1" alphatest="blend">
+    <widget source="session.CurrentService" render="CiModuleControl" allVisible="1" position="516,147" size="120,25" halign="left" valign="center" borderWidth="0" zPosition="1" backgroundColor="background" transparent="1" font="Universe-Thin;20" />
+    <widget source="session.HddSleepingState" render="Pixmap" pixmap="GBUniverseHD/construct/general/hdd.png" size="19,16" position="650,149" zPosition="1" alphatest="blend">
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.CurrentService" render="Pixmap" pixmap="GBUniverseHD/construct/general/stream.png" size="19,16" position="905,149" zPosition="1" alphatest="blend">
+    <widget source="session.CurrentService" render="Pixmap" pixmap="GBUniverseHD/construct/general/stream.png" size="19,16" position="675,149" zPosition="1" alphatest="blend">
       <convert type="ClientsStreaming" />
       <convert type="ConditionalShowHide" />
     </widget>

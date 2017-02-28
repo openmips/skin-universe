@@ -8,62 +8,62 @@
     <resolution xres="1920" yres="1080" bpp="32" />
   </output>
   <colors>
-  <color name="background" value="#40333333" />
-  <color name="background-text" value="#96ffffff" />
-  <color name="black" value="#00000000" />
-  <color name="blue" value="#000064c7" />
-  <color name="dark_BUTTON" value="#00294a6b" />
-  <color name="darkgrey" value="#00999999" />
-  <color name="foreground" value="#00ffffff" />
-  <color name="green" value="#00a5de2a" />
-  <color name="grey" value="#00bbbbbb" />
-  <color name="orange" value="#00f47d19" />
-  <color name="rds_text_bg" value="#00003258" />
-  <color name="red" value="#00f23d21" />
-  <color name="rssviewtop" value="#45005050" />
-  <color name="skin-background" value="#00aaaaaa" />
-  <color name="skin-background-colored" value="#007392bd" />
-  <color name="skin-foreground" value="#00ffffff" />
-  <color name="skin-progress" value="#00ffffff" />
-  <color name="skin-progress-background" value="#aaffffff" />
-  <color name="skin-selection-background" value="#cceeeeee" />
-  <color name="skin-selection-foreground" value="#00ffffff" />
-  <color name="skin-transparency" value="#bbaaaaaa" />
-  <color name="transparent" value="#ff000000" />
-  <color name="transpBlack" value="#80000000" />
-  <color name="transpWhite" value="#77ffffff" />
-  <color name="transpyellow" value="#33bab329" />
-  <color name="un18080911" value="#18080911" />
-  <color name="un1c202b" value="#001c202b" />
-  <color name="un1f771f" value="#001f771f" />
-  <color name="un240e1014" value="#240e1014" />
-  <color name="un44000000" value="#44000000" />
-  <color name="un444444" value="#00444444" />
-  <color name="un555555" value="#00555555" />
-  <color name="un5678a4" value="#005678a4" />
-  <color name="un56c856" value="#0056c856" />
-  <color name="un666666" value="#00666666" />
-  <color name="un800000" value="#00800000" />
-  <color name="un808888" value="#00808888" />
-  <color name="un90000000" value="#90000000" />
-  <color name="un9f1313" value="#009f1313" />
-  <color name="unbab329" value="#00bab329" />
-  <color name="und3d3d3" value="#00d3d3d3" />
-  <color name="undcaaaa" value="#00dcaaaa" />
-  <color name="undcdcdc" value="#00dcdcdc" />
-  <color name="unececec" value="#00ececec" />
-  <color name="unf0b400" value="#00f0b400" />
-  <color name="unfcc000" value="#00fcc000" />
-  <color name="unff" value="#000000ff" />
-  <color name="unff00" value="#0000ff00" />
-  <color name="unff0000" value="#00ff0000" />
-  <color name="unff000000" value="#ff000000" />
-  <color name="unff4a3c" value="#00ff4a3c" />
-  <color name="unffff00" value="#00ffff00" />
-  <color name="unffffff" value="#00ffffff" />
-  <color name="white" value="#00ffffff" />
-  <color name="yellow" value="#00e5b243" />
-</colors>
+    <color name="background" value="#40333333" />
+    <color name="background-text" value="#96ffffff" />
+    <color name="black" value="#00000000" />
+    <color name="blue" value="#000064c7" />
+    <color name="dark_BUTTON" value="#00294a6b" />
+    <color name="darkgrey" value="#00999999" />
+    <color name="foreground" value="#00ffffff" />
+    <color name="green" value="#00a5de2a" />
+    <color name="grey" value="#00bbbbbb" />
+    <color name="orange" value="#00f47d19" />
+    <color name="rds_text_bg" value="#00003258" />
+    <color name="red" value="#00f23d21" />
+    <color name="rssviewtop" value="#45005050" />
+    <color name="skin-background" value="#00aaaaaa" />
+    <color name="skin-background-colored" value="#007392bd" />
+    <color name="skin-foreground" value="#00ffffff" />
+    <color name="skin-progress" value="#00ffffff" />
+    <color name="skin-progress-background" value="#aaffffff" />
+    <color name="skin-selection-background" value="#cceeeeee" />
+    <color name="skin-selection-foreground" value="#00ffffff" />
+    <color name="skin-transparency" value="#bbaaaaaa" />
+    <color name="transparent" value="#ff000000" />
+    <color name="transpBlack" value="#80000000" />
+    <color name="transpWhite" value="#77ffffff" />
+    <color name="transpyellow" value="#33bab329" />
+    <color name="un18080911" value="#18080911" />
+    <color name="un1c202b" value="#001c202b" />
+    <color name="un1f771f" value="#001f771f" />
+    <color name="un240e1014" value="#240e1014" />
+    <color name="un44000000" value="#44000000" />
+    <color name="un444444" value="#00444444" />
+    <color name="un555555" value="#00555555" />
+    <color name="un5678a4" value="#005678a4" />
+    <color name="un56c856" value="#0056c856" />
+    <color name="un666666" value="#00666666" />
+    <color name="un800000" value="#00800000" />
+    <color name="un808888" value="#00808888" />
+    <color name="un90000000" value="#90000000" />
+    <color name="un9f1313" value="#009f1313" />
+    <color name="unbab329" value="#00bab329" />
+    <color name="und3d3d3" value="#00d3d3d3" />
+    <color name="undcaaaa" value="#00dcaaaa" />
+    <color name="undcdcdc" value="#00dcdcdc" />
+    <color name="unececec" value="#00ececec" />
+    <color name="unf0b400" value="#00f0b400" />
+    <color name="unfcc000" value="#00fcc000" />
+    <color name="unff" value="#000000ff" />
+    <color name="unff00" value="#0000ff00" />
+    <color name="unff0000" value="#00ff0000" />
+    <color name="unff000000" value="#ff000000" />
+    <color name="unff4a3c" value="#00ff4a3c" />
+    <color name="unffff00" value="#00ffff00" />
+    <color name="unffffff" value="#00ffffff" />
+    <color name="white" value="#00ffffff" />
+    <color name="yellow" value="#00e5b243" />
+  </colors>
   <fonts>
     <font filename="/usr/share/fonts/ae_AlMateen.ttf" name="Replacement" scale="100" replacement="1" />
     <font filename="/usr/share/fonts/tuxtxt.ttf" name="Console" scale="100" />
@@ -700,11 +700,11 @@
     <ePixmap pixmap="GBUniverseHD/construct/symbols/ui.png" position="1635,785" size="232,254" alphatest="blend" />
   </screen>
   <screen name="menu_frontpanel_menu" position="0,0" size="1920,1080" title="Frontpanel menu" flags="wfNoBorder" backgroundColor="transparent">
-  <panel name="PANEL_TOP" />
-  <panel name="PANEL_MENU" />
-  <ePixmap pixmap="GBUniverseHD/construct/symbols/frontpanel.png" position="1635,785" size="232,254" alphatest="blend" />
-  <widget source="thistory" render="Label" position="671,154" size="540,20" font="Universe-Heavy; 15" transparent="1" valign="top" zPosition="0" backgroundColor="skin-background" />
-</screen>
+    <panel name="PANEL_TOP" />
+    <panel name="PANEL_MENU" />
+    <ePixmap pixmap="GBUniverseHD/construct/symbols/frontpanel.png" position="1635,785" size="232,254" alphatest="blend" />
+    <widget source="thistory" render="Label" position="671,154" size="540,20" font="Universe-Heavy; 15" transparent="1" valign="top" zPosition="0" backgroundColor="skin-background" />
+  </screen>
   <screen name="menu_recording_menu" position="0,0" size="1920,1080" title="Recording menu" flags="wfNoBorder" backgroundColor="transparent">
     <panel name="PANEL_MENU" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/records.png" position="1635,785" size="232,254" alphatest="blend" />
@@ -1527,13 +1527,13 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <widget name="config" position="72,172" size="917,848" itemHeight="30" scrollbarMode="showOnDemand" backgroundColor="skin-background" transparent="1" />
   </screen>
   <screen flags="wfNoBorder" name="InputDeviceSetup" position="0,0" size="1920,1080" title="Input device setup" backgroundColor="transparent">
-  <panel name="PANEL_TOP_TITLE" />
-  <panel name="PANEL_WINDOW_MEDIUM" />
-  <panel name="PANEL_BUTTONS_SOURCE_RG_X" />
-  <widget name="config" position="74,166" size="913,750" itemHeight="40" selectionPixmap="GBUniverseHD/construct/backgrounds/background-selection.png" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="grey" transparent="1" valign="top" font="Universe-Regular; 22" />
-  <widget source="introduction" render="Label" position="73,937" size="1502,90" font="Universe-Regular; 25" halign="left" backgroundColor="skin-background-colored" transparent="1" zPosition="2" valign="top" />
-  <ePixmap pixmap="GBUniverseHD/construct/symbols/devices.png" position="1635,785" size="232,254" alphatest="blend" />
-</screen>
+    <panel name="PANEL_TOP_TITLE" />
+    <panel name="PANEL_WINDOW_MEDIUM" />
+    <panel name="PANEL_BUTTONS_SOURCE_RG_X" />
+    <widget name="config" position="74,166" size="913,750" itemHeight="40" selectionPixmap="GBUniverseHD/construct/backgrounds/background-selection.png" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="grey" transparent="1" valign="top" font="Universe-Regular; 22" />
+    <widget source="introduction" render="Label" position="73,937" size="1502,90" font="Universe-Regular; 25" halign="left" backgroundColor="skin-background-colored" transparent="1" zPosition="2" valign="top" />
+    <ePixmap pixmap="GBUniverseHD/construct/symbols/devices.png" position="1635,785" size="232,254" alphatest="blend" />
+  </screen>
   <screen name="InputDeviceSelection" position="0, 0" flags="wfNoBorder" transparent="0" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP" />
     <panel name="PANEL_WINDOW_MEDIUM" />
@@ -2191,14 +2191,14 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
   </screen>
   <screen name="SecondInfoBar" title="InfoBar" position="0, 0" flags="wfNoBorder" transparent="0" backgroundColor="transparent" size="1920, 1080">
     <panel name="InfoBar" />
-    <ePixmap alphatest="blend" pixmap="GBUniverseHD/construct/backgrounds/background-window-details.png" position="62,393" size="1800,643" zPosition="-7" />
+    <ePixmap alphatest="blend" pixmap="GBUniverseHD/construct/backgrounds/background-window-details.png" position="62,392" size="1800,644" zPosition="-7" />
     <widget render="Label" source="session.Event_Now" position="90,405" size="851,350" font="Universe-Regular; 22" backgroundColor="skin-background" transparent="1" zPosition="5" valign="top">
       <convert type="EventName">FullDescription</convert>
     </widget>
     <widget backgroundColor="skin-background" foregroundColor="skin-foreground" font="Universe-Regular; 22" halign="right" position="984,405" render="Label" size="850,350" source="session.Event_Next" transparent="1" zPosition="1" valign="top">
       <convert type="EventName">FullDescription</convert>
     </widget>
-    <widget source="session.CurrentService" render="Label" position="516,174" size="700,25" font="Universe-Thin; 20" halign="left" valign="center" backgroundColor="background" transparent="1">
+    <widget source="session.CurrentService" render="Label" position="516,172" size="700,25" font="Universe-Thin; 20" halign="left" valign="center" backgroundColor="background" transparent="1">
       <convert type="PaxCaidDisplay">Default</convert>
     </widget>
     <ePixmap alphatest="blend" pixmap="GBUniverseHD/construct/shadow/window-right.png" position="1862,393" size="46,364" zPosition="-3" />
@@ -2206,21 +2206,20 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <ePixmap alphatest="blend" pixmap="GBUniverseHD/construct/shadow/window-br.png" position="1862,757" size="46,48" zPosition="-3" />
   </screen>
   <screen name="SecondInfoBarSimple" title="Second InfoBar" position="0,0" flags="wfNoBorder" transparent="0" backgroundColor="transparent" size="1920, 1080">
-    <panel name="InfoBar" />
-    <eLabel position="510,305" zPosition="-1" size="791,455" backgroundColor="skin-background" />
-    <widget render="Label" source="session.Event_Now" position="524,357" size="765,210" font="Universe-Regular; 20" backgroundColor="skin-background" transparent="1" zPosition="5" valign="top">
-      <convert type="EventName">FullDescription</convert>
-    </widget>
-    <widget noWrap="1" render="Label" source="session.Event_Now" position="525,313" size="765,40" font="Universe-Heavy; 30" halign="left" backgroundColor="skin-background" foregroundColor="skin-foreground" zPosition="10" transparent="1">
-      <convert type="EventName">Name</convert>
-    </widget>
-    <widget backgroundColor="skin-background" foregroundColor="skin-foreground" font="Universe-Regular; 18" halign="right" position="525,612" render="Label" size="765,143" source="session.Event_Next" transparent="0" zPosition="1" valign="top">
-      <convert type="EventName">FullDescription</convert>
-    </widget>
-    <widget backgroundColor="skin-background" foregroundColor="skin-foreground" font="Universe-Heavy; 23" halign="right" position="525,573" render="Label" size="765,33" source="session.Event_Next" transparent="0" valign="bottom" zPosition="2">
-      <convert type="EventName">Name</convert>
-    </widget>
-  </screen>
+  <panel name="InfoBar" />
+
+
+  <ePixmap alphatest="blend" pixmap="GBUniverseHD/construct/backgrounds/background-window-details.png" position="62,393" size="1800,643" zPosition="-7" />
+  <widget render="Label" source="session.Event_Now" position="90,405" size="851,350" font="Universe-Regular; 22" backgroundColor="skin-background" transparent="1" zPosition="5" valign="top">
+    <convert type="EventName">FullDescription</convert>
+  </widget>
+  <widget backgroundColor="skin-background" foregroundColor="skin-foreground" font="Universe-Regular; 22" halign="right" position="984,405" render="Label" size="850,350" source="session.Event_Next" transparent="1" zPosition="1" valign="top">
+    <convert type="EventName">FullDescription</convert>
+  </widget>
+  <ePixmap alphatest="blend" pixmap="GBUniverseHD/construct/shadow/window-right.png" position="1862,393" size="46,364" zPosition="-3" />
+  <eLabel position="62,393" size="1800,643" zPosition="-100" backgroundColor="skin-transparency" />
+  <ePixmap alphatest="blend" pixmap="GBUniverseHD/construct/shadow/window-br.png" position="1862,757" size="46,48" zPosition="-3" />
+</screen>
   <screen name="LanguageWizard" position="0, 0" flags="wfNoBorder" title="Welcome..." transparent="0" backgroundColor="transparent" size="1920, 1080">
     <eLabel text="LanguageWizard" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
     <widget source="languages" render="Listbox" position="73,551" size="913,474" zPosition="13" scrollbarMode="showNever" transparent="1">
@@ -2743,30 +2742,59 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <ePixmap pixmap="GBUniverseHD/construct/symbols/pictures.png" position="1635,785" size="232,254" alphatest="blend" />
   </screen>
   <screen name="LCDSkinSelector" title="Frontpanel Skin" position="0, 0" flags="wfNoBorders" transparent="0" backgroundColor="transparent" size="1920, 1080">
-  <panel name="PANEL_TOP_TITLE" />
-  <panel name="PANEL_WINDOW_MEDIUM" />
-  <widget name="Preview" render="Pixmap" position="618,220" size="350,300" zPosition="4" transparent="1" borderWidth="0" borderColor="transparent" align="right" alphatest="blend" />
-  <widget name="SkinList" render="List" position="73,220" size="513,740" zPosition="1" itemHeight="35" foregroundColor="skin-foreground" foregroundColorSelected="skin-foreground" backgroundColor="skin-background" scrollbarMode="showOnDemand" transparent="1" />
-  <widget name="lab1" text="Select skin:" render="Label" position="73,174" size="537,40" font="Universe-Heavy; 24" foregroundColor="skin-foreground" transparent="1" zPosition="1" halign="left" backgroundColor="skin-background" />
-  <widget name="lab2" text="Preview:" position="618,174" render="Label" size="368,40" font="Universe-Heavy; 24" foregroundColor="skin-foreground" transparent="1" zPosition="1" halign="left" backgroundColor="skin-background" />
-  <widget name="lab3" position="73,980" render="Label" size="910,40" font="Regular; 24" foregroundColor="skin-foreground" transparent="1" zPosition="1" halign="left" backgroundColor="skin-background-colored" valign="bottom" />
-  <ePixmap pixmap="GBUniverseHD/construct/symbols/pictures.png" position="1635,785" size="232,254" alphatest="blend" />
-</screen>
-<screen name="LCDClockSelector" title="LCD Clock Selector" position="0, 0" flags="wfNoBorders" transparent="0" backgroundColor="transparent" size="1920, 1080">
-  <panel name="PANEL_TOP_TITLE" />
-  <panel name="PANEL_WINDOW_MEDIUM" />
-  <widget name="Preview" render="Pixmap" position="618,220" size="350,300" zPosition="4" transparent="1" borderWidth="0" borderColor="transparent" align="right" alphatest="blend" />
-  <widget name="ClockList" render="List" position="73,220" size="513,700" zPosition="1" itemHeight="35" foregroundColor="skin-foreground" foregroundColorSelected="skin-foreground" backgroundColor="skin-background" scrollbarMode="showOnDemand" transparent="1" />
-  <widget name="lab1" render="Label" position="73,174" size="537,40" font="Universe-Heavy; 24" foregroundColor="skin-foreground" transparent="1" zPosition="1" halign="left" backgroundColor="skin-background" />
-  <widget name="lab2" position="618,174" render="Label" size="368,40" font="Universe-Heavy; 24" foregroundColor="skin-foreground" transparent="1" zPosition="1" halign="left" backgroundColor="skin-background" />
-  <widget name="lab3" position="73,940" render="Label" size="910,80" font="Regular; 24" foregroundColor="skin-foreground" transparent="1" zPosition="1" halign="left" backgroundColor="skin-background-colored" valign="bottom" />
-  <ePixmap pixmap="GBUniverseHD/construct/symbols/frontpanel.png" position="1635,785" size="232,254" alphatest="blend" />
-</screen><screen name="LED_GigaSetup" title="LED Setup" position="0, 0" flags="wfNoBorders" transparent="0" backgroundColor="transparent" size="1920, 1080">
-<panel name="PANEL_TOP_TITLE" />
+    <panel name="PANEL_TOP_TITLE" />
+    <panel name="PANEL_WINDOW_MEDIUM" />
+    <widget name="Preview" render="Pixmap" position="618,220" size="350,300" zPosition="4" transparent="1" borderWidth="0" borderColor="transparent" align="right" alphatest="blend" />
+    <widget name="SkinList" render="List" position="73,220" size="513,740" zPosition="1" itemHeight="35" foregroundColor="skin-foreground" foregroundColorSelected="skin-foreground" backgroundColor="skin-background" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="lab1" text="Select skin:" render="Label" position="73,174" size="537,40" font="Universe-Heavy; 24" foregroundColor="skin-foreground" transparent="1" zPosition="1" halign="left" backgroundColor="skin-background" />
+    <widget name="lab2" text="Preview:" position="618,174" render="Label" size="368,40" font="Universe-Heavy; 24" foregroundColor="skin-foreground" transparent="1" zPosition="1" halign="left" backgroundColor="skin-background" />
+    <widget name="lab3" position="73,980" render="Label" size="910,40" font="Regular; 24" foregroundColor="skin-foreground" transparent="1" zPosition="1" halign="left" backgroundColor="skin-background-colored" valign="bottom" />
+    <ePixmap pixmap="GBUniverseHD/construct/symbols/pictures.png" position="1635,785" size="232,254" alphatest="blend" />
+  </screen>
+  <screen name="LCDClockSelector" title="LCD Clock Selector" position="0, 0" flags="wfNoBorders" transparent="0" backgroundColor="transparent" size="1920, 1080">
+    <panel name="PANEL_TOP_TITLE" />
+    <panel name="PANEL_WINDOW_MEDIUM" />
+    <widget name="Preview" render="Pixmap" position="618,220" size="350,300" zPosition="4" transparent="1" borderWidth="0" borderColor="transparent" align="right" alphatest="blend" />
+    <widget name="ClockList" render="List" position="73,220" size="513,700" zPosition="1" itemHeight="35" foregroundColor="skin-foreground" foregroundColorSelected="skin-foreground" backgroundColor="skin-background" scrollbarMode="showOnDemand" transparent="1" />
+    <widget name="lab1" render="Label" position="73,174" size="537,40" font="Universe-Heavy; 24" foregroundColor="skin-foreground" transparent="1" zPosition="1" halign="left" backgroundColor="skin-background" />
+    <widget name="lab2" position="618,174" render="Label" size="368,40" font="Universe-Heavy; 24" foregroundColor="skin-foreground" transparent="1" zPosition="1" halign="left" backgroundColor="skin-background" />
+    <widget name="lab3" position="73,940" render="Label" size="910,80" font="Regular; 24" foregroundColor="skin-foreground" transparent="1" zPosition="1" halign="left" backgroundColor="skin-background-colored" valign="bottom" />
+    <ePixmap pixmap="GBUniverseHD/construct/symbols/frontpanel.png" position="1635,785" size="232,254" alphatest="blend" />
+  </screen>
+  <screen name="LED_GigaSetup" title="LED Setup" position="0, 0" flags="wfNoBorders" transparent="0" backgroundColor="transparent" size="1920, 1080">
+    <panel name="PANEL_TOP_TITLE" />
     <panel name="PANEL_BUTTONS_SOURCE_RG_X" />
     <panel name="PANEL_WINDOW_MEDIUM" />
-<panel name="PANEL_CONFIG" />
-      <ePixmap pixmap="GBUniverseHD/construct/symbols/frontpanel.png" position="1635,785" size="232,254" alphatest="blend" />
-
-
-</screen></skin>
+    <panel name="PANEL_CONFIG" />
+    <ePixmap pixmap="GBUniverseHD/construct/symbols/frontpanel.png" position="1635,785" size="232,254" alphatest="blend" />
+  </screen>
+  <screen name="MyUniverse-Setup" position="0,0" size="1920,1080" flags="wfNoBorder" backgroundColor="transparent">
+	<widget source="global.CurrentTime" render="Label" position="1660,52" size="200,78" font="Universe-Heavy; 50" backgroundColor="background" transparent="1" zPosition="1" halign="right" noWrap="1" valign="bottom">
+	<convert type="ClockToText">Default</convert>
+	</widget>
+	<widget source="global.CurrentTime" render="Label" position="1384,55" size="291,68" font="Universe-Thin; 35" backgroundColor="background" transparent="1" zPosition="1" halign="right" noWrap="1" valign="bottom">
+	<convert type="ClockToText">Format:%a. %e. %b</convert>
+	</widget>
+	<ePixmap name="menu-top" position="0,0" size="1920,460" pixmap="GBUniverseHD/construct/shadow/top.png" alphatest="blend" zPosition="-10" />
+	<eLabel text="MyUniverse" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" zPosition="-1" />
+	<eLabel text="Cancel" zPosition="1" backgroundColor="background" size="231,40" foregroundColor="skin-foreground" position="1612,278" font="Universe-Heavy; 20" transparent="1" halign="right" />
+	<eLabel text="Save" zPosition="1" backgroundColor="background" size="231,40" foregroundColor="skin-foreground" position="1612,338" font="Universe-Heavy; 20" transparent="1" halign="right" />
+	<eLabel text="Reboot" zPosition="1" backgroundColor="background" size="231,40" foregroundColor="skin-foreground" position="1612,393" font="Universe-Heavy; 20" transparent="1" halign="right" />
+	<ePixmap pixmap="GBUniverseHD/construct/backgrounds/background-exit-button.png" size="10,55" position="1850,142" />
+	<eLabel backgroundColor="red" size="10,55" position="1850,263" />
+	<eLabel backgroundColor="green" size="10,55" position="1850,323" />
+	<eLabel backgroundColor="yellow" size="10,55" position="1850,383" />
+	<eLabel backgroundColor="blue" size="10,55" position="1850,444" />
+	<eLabel backgroundColor="grey" size="231,40" foregroundColor="skin-foreground" position="1612,157" font="Universe-Heavy; 20" transparent="1" halign="right" text="Exit" />
+	<ePixmap name="" position="0,0" size="1920,1080" pixmap="GBUniverseHD/construct/shadow/right.png" zPosition="-20" alphatest="blend" />
+	<ePixmap position="1635,785" size="232,254" zPosition="-9" pixmap="GBUniverseHD/construct/backgrounds/background-symbol.png" transparent="0" alphatest="blend" />
+	<ePixmap position="63,150" size="937,887" zPosition="-3" pixmap="GBUniverseHD/construct/backgrounds/background-window-title.png" alphatest="blend" />
+	<ePixmap alphatest="blend" position="1000,150" size="46,887" zPosition="-5" pixmap="GBUniverseHD/construct/shadow/window-right.png" />
+	<ePixmap alphatest="blend" position="63,1037" size="937,48" zPosition="-5" pixmap="GBUniverseHD/construct/shadow/window-bottom.png" />
+	<ePixmap alphatest="blend" position="1000,1037" size="46,48" zPosition="-5" pixmap="GBUniverseHD/construct/shadow/window-br.png" />
+	<eLabel position="63,150" size="937,887" zPosition="-100" backgroundColor="skin-transparency" />
+	<ePixmap pixmap="GBUniverseHD/construct/symbols/skin.png" position="1635,785" size="232,254" alphatest="blend" />
+	<widget name="config" position="73,170" scrollbarMode="showOnDemand" size="913,320" transparent="1" />
+	<widget name="previewimage" position="73,510" size="913,514" zPosition="1" backgroundColor="background" />
+</screen>
+</skin>

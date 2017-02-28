@@ -2199,7 +2199,7 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <widget backgroundColor="skin-background" foregroundColor="skin-foreground" font="Universe-Regular; 22" halign="right" position="984,405" render="Label" size="850,350" source="session.Event_Next" transparent="1" zPosition="1" valign="top">
       <convert type="EventName">FullDescription</convert>
     </widget>
-    <widget source="session.CurrentService" render="Label" position="491,174" size="700,25" font="Universe-Thin; 20" halign="left" valign="center" backgroundColor="background" transparent="1">
+    <widget source="session.CurrentService" render="Label" position="516,174" size="700,25" font="Universe-Thin; 20" halign="left" valign="center" backgroundColor="background" transparent="1">
       <convert type="PaxCaidDisplay">Default</convert>
     </widget>
     <ePixmap alphatest="blend" pixmap="GBUniverseHD/construct/shadow/window-right.png" position="1862,393" size="46,364" zPosition="-3" />

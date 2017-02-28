@@ -65,64 +65,64 @@
     <color name="yellow" value="#00e5b243" />
   </colors>
   <fonts>
-  <font filename="/usr/share/fonts/ae_AlMateen.ttf" name="Replacement" scale="100" replacement="1" />
-  <font filename="/usr/share/fonts/tuxtxt.ttf" name="Console" scale="100" />
-  <font filename="/usr/share/fonts/nmsbd.ttf" name="Arial" scale="100" />
-  <font filename="/usr/share/enigma2/GBUniverseHD/fonts/meteocons.ttf" name="Meteo" scale="100" />
-  <font filename="/usr/share/enigma2/GBUniverseHD/fonts/Universe-Regular.ttf" name="Regular" scale="110" />
-  <font filename="/usr/share/enigma2/GBUniverseHD/fonts/Universe-Heavy.otf" name="Universe-Heavy" scale="120" />
-  <font filename="/usr/share/enigma2/GBUniverseHD/fonts/Universe-Thin.otf" name="Universe-Thin" scale="120" />
-  <font filename="/usr/share/enigma2/GBUniverseHD/fonts/Universe-Regular.ttf" name="Universe-Regular" scale="110" />
-  <font filename="/usr/share/enigma2/GBUniverseHD/fonts/Universe-Regular-Thin.ttf" name="Universe-Regular-Thin" scale="110" />
-</fonts>
+    <font filename="/usr/share/fonts/ae_AlMateen.ttf" name="Replacement" scale="100" replacement="1" />
+    <font filename="/usr/share/fonts/tuxtxt.ttf" name="Console" scale="100" />
+    <font filename="/usr/share/fonts/nmsbd.ttf" name="Arial" scale="100" />
+    <font filename="/usr/share/enigma2/GBUniverseHD/fonts/meteocons.ttf" name="Meteo" scale="100" />
+    <font filename="/usr/share/enigma2/GBUniverseHD/fonts/Universe-Regular.ttf" name="Regular" scale="110" />
+    <font filename="/usr/share/enigma2/GBUniverseHD/fonts/Universe-Heavy.otf" name="Universe-Heavy" scale="120" />
+    <font filename="/usr/share/enigma2/GBUniverseHD/fonts/Universe-Thin.otf" name="Universe-Thin" scale="120" />
+    <font filename="/usr/share/enigma2/GBUniverseHD/fonts/Universe-Regular.ttf" name="Universe-Regular" scale="110" />
+    <font filename="/usr/share/enigma2/GBUniverseHD/fonts/Universe-Regular-Thin.ttf" name="Universe-Regular-Thin" scale="110" />
+  </fonts>
   <parameters>
-  <parameter name="FileListName" value="68,4,1000,34" />
-  <parameter name="FileListIcon" value="7,4,52,37" />
-  <parameter name="FileListMultiName" value="90,3,1000,32" />
-  <parameter name="FileListMultiIcon" value="45, 4, 30, 30" />
-  <parameter name="FileListMultiLock" value="2,0,36,36" />
-  <parameter name="ChoicelistDash" value="0,10,1000,30" />
-  <parameter name="ChoicelistName" value="68,10,1000,30" />
-  <parameter name="ChoicelistIcon" value="7,3,52,38" />
-  <parameter name="PluginBrowserName" value="20,16,55" />
-  <parameter name="PluginBrowserDescr" value="20,52,25" />
-  <parameter name="PluginBrowserIcon" value="767,10,150,60" />
-  <parameter name="PluginBrowserDownloadName" value="120,18,28" />
-  <parameter name="PluginBrowserDownloadDescr" value="120,52,25" />
-  <parameter name="PluginBrowserDownloadIcon" value="15,0,90,76" />
-  <parameter name="ServiceInfo" value="0,5,450,50" />
-  <parameter name="ServiceInfoLeft" value="20,5,450,45" />
-  <parameter name="ServiceInfoRight" value="450,5,1000,45" />
-  <parameter name="SelectionListDescr" value="945,3,1000,32" />
-  <parameter name="SelectionListLock" value="99,2,36,36" />
-  <parameter name="ConfigListSeperator" value="300" />
-  <parameter name="VirtualKeyboard" value="68,68" />
-  <parameter name="PartnerBoxEntryListName" value="8,2,225,38" />
-  <parameter name="PartnerBoxEntryListIP" value="180,2,225,38" />
-  <parameter name="PartnerBoxEntryListPort" value="405,2,150,38" />
-  <parameter name="PartnerBoxEntryListType" value="615,2,150,38" />
-  <parameter name="PartnerBoxTimerServicename" value="0,0,45" />
-  <parameter name="PartnerBoxTimerName" value="0,42,30" />
-  <parameter name="PartnerBoxE1TimerTime" value="0,78,255,30" />
-  <parameter name="PartnerBoxE1TimerState" value="255,78,255,30" />
-  <parameter name="PartnerBoxE2TimerTime" value="0,78,225,30" />
-  <parameter name="PartnerBoxE2TimerState" value="225,78,225,30" />
-  <parameter name="PartnerBoxE2TimerIcon" value="1050,8,20,20" />
-  <parameter name="PartnerBoxE2TimerIconRepeat" value="1050,38,20,20" />
-  <parameter name="PartnerBoxBouquetListName" value="0,0,45" />
-  <parameter name="PartnerBoxChannelListName" value="0,0,45" />
-  <parameter name="PartnerBoxChannelListTitle" value="0,42,30" />
-  <parameter name="PartnerBoxChannelListTime" value="0,78,225,30" />
-  <parameter name="HelpMenuListHlp" value="0,0,900,42" />
-  <parameter name="HelpMenuListExtHlp0" value="0,0,900,39" />
-  <parameter name="HelpMenuListExtHlp1" value="0,42,900,30" />
-  <parameter name="AboutHddSplit" value="1" />
-  <parameter name="DreamexplorerName" value="62,0,1200,38" />
-  <parameter name="DreamexplorerIcon" value="15,4,30,30" />
-  <parameter name="PicturePlayerThumb" value="30,285,45,300,30,25" />
-  <parameter name="PlayListName" value="38,2,1000,34" />
-  <parameter name="PlayListIcon" value="7,7,24,24" />
-</parameters>
+    <parameter name="FileListName" value="68,4,1000,34" />
+    <parameter name="FileListIcon" value="7,4,52,37" />
+    <parameter name="FileListMultiName" value="90,3,1000,32" />
+    <parameter name="FileListMultiIcon" value="45, 4, 30, 30" />
+    <parameter name="FileListMultiLock" value="2,0,36,36" />
+    <parameter name="ChoicelistDash" value="0,10,1000,30" />
+    <parameter name="ChoicelistName" value="68,10,1000,30" />
+    <parameter name="ChoicelistIcon" value="7,3,52,38" />
+    <parameter name="PluginBrowserName" value="20,16,55" />
+    <parameter name="PluginBrowserDescr" value="20,52,25" />
+    <parameter name="PluginBrowserIcon" value="767,10,150,60" />
+    <parameter name="PluginBrowserDownloadName" value="120,18,28" />
+    <parameter name="PluginBrowserDownloadDescr" value="120,52,25" />
+    <parameter name="PluginBrowserDownloadIcon" value="15,0,90,76" />
+    <parameter name="ServiceInfo" value="0,5,450,50" />
+    <parameter name="ServiceInfoLeft" value="20,5,450,45" />
+    <parameter name="ServiceInfoRight" value="450,5,1000,45" />
+    <parameter name="SelectionListDescr" value="945,3,1000,32" />
+    <parameter name="SelectionListLock" value="99,2,36,36" />
+    <parameter name="ConfigListSeperator" value="300" />
+    <parameter name="VirtualKeyboard" value="68,68" />
+    <parameter name="PartnerBoxEntryListName" value="8,2,225,38" />
+    <parameter name="PartnerBoxEntryListIP" value="180,2,225,38" />
+    <parameter name="PartnerBoxEntryListPort" value="405,2,150,38" />
+    <parameter name="PartnerBoxEntryListType" value="615,2,150,38" />
+    <parameter name="PartnerBoxTimerServicename" value="0,0,45" />
+    <parameter name="PartnerBoxTimerName" value="0,42,30" />
+    <parameter name="PartnerBoxE1TimerTime" value="0,78,255,30" />
+    <parameter name="PartnerBoxE1TimerState" value="255,78,255,30" />
+    <parameter name="PartnerBoxE2TimerTime" value="0,78,225,30" />
+    <parameter name="PartnerBoxE2TimerState" value="225,78,225,30" />
+    <parameter name="PartnerBoxE2TimerIcon" value="1050,8,20,20" />
+    <parameter name="PartnerBoxE2TimerIconRepeat" value="1050,38,20,20" />
+    <parameter name="PartnerBoxBouquetListName" value="0,0,45" />
+    <parameter name="PartnerBoxChannelListName" value="0,0,45" />
+    <parameter name="PartnerBoxChannelListTitle" value="0,42,30" />
+    <parameter name="PartnerBoxChannelListTime" value="0,78,225,30" />
+    <parameter name="HelpMenuListHlp" value="0,0,900,42" />
+    <parameter name="HelpMenuListExtHlp0" value="0,0,900,39" />
+    <parameter name="HelpMenuListExtHlp1" value="0,42,900,30" />
+    <parameter name="AboutHddSplit" value="1" />
+    <parameter name="DreamexplorerName" value="62,0,1200,38" />
+    <parameter name="DreamexplorerIcon" value="15,4,30,30" />
+    <parameter name="PicturePlayerThumb" value="30,285,45,300,30,25" />
+    <parameter name="PlayListName" value="38,2,1000,34" />
+    <parameter name="PlayListIcon" value="7,7,24,24" />
+  </parameters>
   <subtitles>
     <sub name="Subtitle_TTX" font="Universe-Regular;30" shadowColor="#40101010" shadowOffset="3,3" />
     <sub name="Subtitle_Regular" font="Universe-Regular;30" foregroundColor="undcdcdc" shadowColor="#40101010" shadowOffset="3,3" />
@@ -443,11 +443,11 @@
     <widget source="title" render="Label" position="665,30" size="690,100" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
     <widget source="menu_path_compressed" render="Label" position="665,129" size="540,20" font="Universe-Thin; 15" transparent="1" valign="top" zPosition="0" backgroundColor="background" />
     <widget source="menu" render="Listbox" position="63,74" size="557,961" alphatest="blend" selectionPixmap="GBUniverseHD/construct/backgrounds/background-selection.png" scrollbarMode="showNever" enableWrapAround="1" transparent="1">
-  <convert type="TemplatedMultiContent">{"template": [ MultiContentEntryText(pos = (30, 40), size = (500, 50), flags = RT_HALIGN_LEFT, text = 0) ],
+      <convert type="TemplatedMultiContent">{"template": [ MultiContentEntryText(pos = (30, 40), size = (500, 50), flags = RT_HALIGN_LEFT, text = 0) ],
 				"fonts": [gFont("Universe-Heavy", 24)],
 				"itemHeight": 100
 				}</convert>
-</widget>
+    </widget>
     <ePixmap alphatest="blend" position="620,50" size="46,987" zPosition="-5" pixmap="GBUniverseHD/construct/shadow/window-right.png" />
     <ePixmap alphatest="blend" position="65,1037" size="555,48" zPosition="-5" pixmap="GBUniverseHD/construct/shadow/window-bottom.png" />
     <ePixmap alphatest="blend" position="620,1037" size="46,48" zPosition="-5" pixmap="GBUniverseHD/construct/shadow/window-br.png" />
@@ -700,12 +700,12 @@
     <ePixmap pixmap="GBUniverseHD/construct/symbols/ui.png" position="1635,785" size="232,254" alphatest="blend" />
   </screen>
   <screen name="menu_frontpanel_menu" position="0,0" size="1920,1080" title="Frontpanel menu" flags="wfNoBorder" backgroundColor="transparent">
-  <panel name="PANEL_TOP" />
-  <panel name="PANEL_MENU" />
-  <panel name="PANEL_BUTTONS_FRONTPANEL" />
-  <ePixmap pixmap="GBUniverseHD/construct/symbols/frontpanel.png" position="1635,785" size="232,254" alphatest="blend" />
-  <widget source="thistory" render="Label" position="671,154" size="540,20" font="Universe-Heavy; 15" transparent="1" valign="top" zPosition="0" backgroundColor="skin-background" />
-</screen>
+    <panel name="PANEL_TOP" />
+    <panel name="PANEL_MENU" />
+    <panel name="PANEL_BUTTONS_FRONTPANEL" />
+    <ePixmap pixmap="GBUniverseHD/construct/symbols/frontpanel.png" position="1635,785" size="232,254" alphatest="blend" />
+    <widget source="thistory" render="Label" position="671,154" size="540,20" font="Universe-Heavy; 15" transparent="1" valign="top" zPosition="0" backgroundColor="skin-background" />
+  </screen>
   <screen name="menu_recording_menu" position="0,0" size="1920,1080" title="Recording menu" flags="wfNoBorder" backgroundColor="transparent">
     <panel name="PANEL_MENU" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/records.png" position="1635,785" size="232,254" alphatest="blend" />
@@ -967,10 +967,10 @@
     <panel name="PANEL_TOP" />
     <panel name="PANEL_WEATHER" />
     <!-- InfoWidget -->
-    <widget source="session.CurrentService" render="Label" position="491,48" size="889,82" font="Universe-Heavy; 50" noWrap="1" backgroundColor="background" transparent="1" zPosition="1" halign="left" valign="bottom">
+    <widget source="session.CurrentService" render="Label" position="516,48" size="889,82" font="Universe-Heavy; 50" noWrap="1" backgroundColor="background" transparent="1" zPosition="1" halign="left" valign="bottom">
       <convert type="ServiceName">Name</convert>
     </widget>
-    <widget source="session.CurrentService" foregroundColor="skin-foreground" render="ChannelNumber" position="362,47" size="124,83" font="Universe-Thin; 50" halign="right" valign="bottom" noWrap="1" backgroundColor="darkgrey" transparent="1" zPosition="1" />
+    <widget source="session.CurrentService" foregroundColor="skin-foreground" render="ChannelNumber" position="361,47" size="150,83" font="Universe-Thin; 50" halign="right" valign="bottom" noWrap="1" backgroundColor="darkgrey" transparent="1" zPosition="1" />
     <!-- InfoBar -->
     <ePixmap alphatest="blend" pixmap="GBUniverseHD/construct/shadow/window-right.png" position="1862,772" size="46,265" zPosition="-3" />
     <ePixmap alphatest="blend" pixmap="GBUniverseHD/construct/shadow/window-bottom.png" position="62,1037" size="1800,48" zPosition="-3" />
@@ -1062,31 +1062,31 @@
       <convert type="ServiceInfo">IsCrypted</convert>
       <convert type="ConditionalShowHide" />
     </widget>
-    <eLabel text="TUNER" position="491,146" size="85,25" font="Universe-Thin; 20" halign="left" valign="center" backgroundColor="background" transparent="1" noWrap="1" name="re" />
-    <widget source="session.FrontendInfo" render="Label" position="573,147" size="118,25" font="Universe-Heavy; 20" halign="left" valign="center" backgroundColor="background" transparent="1">
+    <eLabel text="TUNER" position="516,146" size="85,25" font="Universe-Thin; 20" halign="left" valign="center" backgroundColor="background" transparent="1" noWrap="1" name="re" />
+    <widget source="session.FrontendInfo" render="Label" position="598,147" size="118,25" font="Universe-Heavy; 20" halign="left" valign="center" backgroundColor="background" transparent="1">
       <convert type="FrontendInfo">STRING,10</convert>
     </widget>
-    <widget source="session.CurrentService" render="CiModuleControl" allVisible="1" position="690,147" size="120,25" halign="left" valign="center" borderWidth="0" zPosition="1" backgroundColor="background" transparent="1" font="Universe-Thin;20" />
-    <widget source="session.HddSleepingState" render="Pixmap" pixmap="GBUniverseHD/construct/general/hdd.png" size="19,16" position="855,149" zPosition="1" alphatest="blend">
+    <widget source="session.CurrentService" render="CiModuleControl" allVisible="1" position="715,147" size="120,25" halign="left" valign="center" borderWidth="0" zPosition="1" backgroundColor="background" transparent="1" font="Universe-Thin;20" />
+    <widget source="session.HddSleepingState" render="Pixmap" pixmap="GBUniverseHD/construct/general/hdd.png" size="19,16" position="880,149" zPosition="1" alphatest="blend">
       <convert type="ConditionalShowHide" />
     </widget>
-    <widget source="session.CurrentService" render="Pixmap" pixmap="GBUniverseHD/construct/general/stream.png" size="19,16" position="880,149" zPosition="1" alphatest="blend">
+    <widget source="session.CurrentService" render="Pixmap" pixmap="GBUniverseHD/construct/general/stream.png" size="19,16" position="905,149" zPosition="1" alphatest="blend">
       <convert type="ClientsStreaming" />
       <convert type="ConditionalShowHide" />
     </widget>
-    <eLabel text="SNR" position="491,120" size="60,25" font="Universe-Thin; 20" halign="left" valign="center" backgroundColor="background" transparent="1" noWrap="1" />
-    <widget source="session.FrontendStatus" render="Label" position="546,120" size="90,25" font="Universe-Heavy; 20" backgroundColor="background" transparent="1" halign="left" noWrap="1">
+    <eLabel text="SNR" position="516,120" size="60,25" font="Universe-Thin; 20" halign="left" valign="center" backgroundColor="background" transparent="1" noWrap="1" />
+    <widget source="session.FrontendStatus" render="Label" position="571,120" size="90,25" font="Universe-Heavy; 20" backgroundColor="background" transparent="1" halign="left" noWrap="1">
       <convert type="FrontendInfo">SNR</convert>
     </widget>
-    <eLabel text="AGC" position="635,120" size="60,25" font="Universe-Thin; 20" halign="left" valign="center" backgroundColor="background" transparent="1" noWrap="1" name="re" />
-    <widget source="session.FrontendStatus" render="Label" position="690,120" size="80,25" font="Universe-Heavy; 20" backgroundColor="background" transparent="1" halign="left" noWrap="1">
+    <eLabel text="AGC" position="660,120" size="60,25" font="Universe-Thin; 20" halign="left" valign="center" backgroundColor="background" transparent="1" noWrap="1" name="re" />
+    <widget source="session.FrontendStatus" render="Label" position="715,120" size="80,25" font="Universe-Heavy; 20" backgroundColor="background" transparent="1" halign="left" noWrap="1">
       <convert type="FrontendInfo">AGC</convert>
     </widget>
-    <widget source="session.CurrentService" render="Label" position="755,120" size="80,25" font="Universe-Heavy; 20" halign="right" valign="center" backgroundColor="background" transparent="1" noWrap="1">
+    <widget source="session.CurrentService" render="Label" position="780,120" size="80,25" font="Universe-Heavy; 20" halign="right" valign="center" backgroundColor="background" transparent="1" noWrap="1">
       <convert type="ServiceInfo">VideoWidth</convert>
     </widget>
-    <eLabel text="x" position="837,120" size="18,25" font="Universe-Thin; 20" halign="center" valign="center" backgroundColor="background" transparent="1" noWrap="1" name="re" />
-    <widget source="session.CurrentService" render="Label" position="855,120" size="60,25" font="Universe-Heavy; 20" halign="left" valign="center" backgroundColor="background" transparent="1" noWrap="1">
+    <eLabel text="x" position="862,120" size="18,25" font="Universe-Thin; 20" halign="center" valign="center" backgroundColor="background" transparent="1" noWrap="1" name="re" />
+    <widget source="session.CurrentService" render="Label" position="880,120" size="60,25" font="Universe-Heavy; 20" halign="left" valign="center" backgroundColor="background" transparent="1" noWrap="1">
       <convert type="ServiceInfo">VideoHeight</convert>
     </widget>
     <eLabel position="62,772" size="1800,265" zPosition="-100" backgroundColor="skin-transparency" />

@@ -9,7 +9,6 @@
   </output>
   <colors>
     <color name="background" value="#40333333" />
-    <color name="background-text" value="#96ffffff" />
     <color name="black" value="#00000000" />
     <color name="blue" value="#000064c7" />
     <color name="dark_BUTTON" value="#00294a6b" />

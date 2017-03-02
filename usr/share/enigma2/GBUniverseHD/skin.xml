@@ -20,7 +20,7 @@
     <color name="rds_text_bg" value="#00003258" />
     <color name="red" value="#00f23d21" />
     <color name="rssviewtop" value="#45005050" />
-    <color name="skin-background" value="#22999999" />
+    <color name="skin-background" value="#22888888" />
     <color name="skin-background-colored" value="#007392bd" />
     <color name="skin-foreground" value="#00ffffff" />
     <color name="skin-progress" value="#00ffffff" />
@@ -1529,7 +1529,7 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <panel name="PANEL_TOP_TITLE" />
     <panel name="PANEL_WINDOW_MEDIUM" />
     <panel name="PANEL_BUTTONS_SOURCE_RG_X" />
-    <widget name="config" position="74,166" size="913,750" itemHeight="40" selectionPixmap="GBUniverseHD/construct/backgrounds/background-selection.png" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="grey" transparent="1" valign="top" font="Universe-Regular; 22" />
+    <widget name="config" position="74,166" size="913,750" itemHeight="50" selectionPixmap="GBUniverseHD/construct/backgrounds/background-selection.png" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="grey" transparent="1" valign="top" font="Universe-Regular; 22" />
     <widget source="introduction" render="Label" position="73,937" size="1502,90" font="Universe-Regular; 25" halign="left" backgroundColor="skin-background-colored" transparent="1" zPosition="2" valign="top" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/devices.png" position="1635,785" size="232,254" alphatest="blend" />
   </screen>
@@ -2112,11 +2112,11 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <panel name="PANEL_WINDOW_MEDIUM" />
     <panel name="PANEL_BUTTONS_RGB_X_PLAIN" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/keyboard.png" position="1635,785" size="232,254" alphatest="blend" />
-    <widget name="header" position="73,172" size="913,45" backgroundColor="skin-background" foregroundColor="skin-foreground" font="Universe-Heavy;35" halign="left" transparent="1" noWrap="1" />
+    <widget name="header" position="73,172" size="913,45" backgroundColor="skin-background" foregroundColor="skin-foreground" font="Universe-Regular; 30" halign="left" transparent="1" noWrap="1" />
     <eLabel position="73,237" size="913,60" zPosition="1" backgroundColor="skin-foreground" />
     <eLabel position="73,239" size="912,56" zPosition="2" backgroundColor="skin-background" />
-    <widget name="text" position="76,243" size="908,50" zPosition="3" font="Universe-Heavy;40" noWrap="1" halign="right" />
-    <widget name="list" position="191,324" size="696,250" selectionDisabled="1" transparent="1" />
+    <widget name="text" position="76,243" size="908,50" zPosition="3" font="Universe-Regular; 28" noWrap="1" halign="left" />
+    <widget name="list" position="191,324" size="696,250" font="Console;20" selectionDisabled="1" transparent="1" />
     <eLabel text="Encoding" zPosition="1" backgroundColor="background" size="231,40" foregroundColor="skin-foreground" position="1612,393" font="Universe-Heavy; 20" transparent="1" halign="right" />
   </screen>
   <screen name="JobView" position="0, 0" flags="wfNoBorder" transparent="0" title="JobView" backgroundColor="transparent" size="1920, 1080">
@@ -2796,4 +2796,29 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
 	<widget name="config" position="73,170" scrollbarMode="showOnDemand" size="913,320" transparent="1" />
 	<widget name="previewimage" position="73,510" size="913,514" zPosition="1" backgroundColor="background" />
 </screen>
-</skin>
+<screen name="WlanScan" position="0, 0" flags="wfNoBorders" transparent="0" backgroundColor="transparent" size="1920, 1080" title="Choose a Wireless Network">
+    <panel name="PANEL_TOP_TITLE" />
+    <panel name="PANEL_BUTTONS_SOURCE_RGY_X" />
+    <panel name="PANEL_WINDOW_MEDIUM" />
+    <ePixmap pixmap="GBUniverseHD/construct/symbols/network.png" position="1635,785" size="232,254" alphatest="blend" />
+ 
+
+	<widget source="info" render="Label" position="73,940" size="913,80" zPosition="1" halign="left" valign="bottom" font="Universe-Regular;22" transparent="1" />
+	<widget source="list" render="Listbox" position="73,170" size="913,750" zPosition="1" scrollbarMode="showOnDemand" transparent="1">
+		<convert type="TemplatedMultiContent">
+			{"template": [
+					MultiContentEntryText(pos = (10, 5), size = (550, 30), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the essid
+					MultiContentEntryText(pos = (10, 35), size = (220, 20), font=1, flags = RT_HALIGN_LEFT, text = 5), # index 5 is the interface
+					MultiContentEntryText(pos = (240, 35), size = (220, 20), font=1, flags = RT_HALIGN_LEFT, text = 4), # index 0 is the encryption
+					MultiContentEntryText(pos = (480, 5), size = (290, 20), font=1, flags = RT_HALIGN_LEFT, text = 2), # index 0 is the signal
+					MultiContentEntryText(pos = (480, 35), size = (290, 20), font=1, flags = RT_HALIGN_LEFT, text = 3), # index 0 is the maxrate
+					MultiContentEntryPixmap(pos = (0, 59), size = (800, 1), png = 6), # index 6 is the div pixmap
+				],
+			"fonts": [gFont("Regular", 28),gFont("Regular", 18)],
+			"itemHeight": 60
+			}
+		</convert>
+	</widget>
+
+
+</screen></skin>

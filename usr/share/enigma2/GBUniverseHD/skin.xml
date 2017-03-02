@@ -424,17 +424,17 @@
     <widget name="description" position="73,937" size="1502,90" font="Universe-Regular; 20" halign="left" backgroundColor="skin-background-colored" transparent="1" zPosition="2" valign="top" />
   </screen>
   <screen name="PANEL_CONFIG_DESCRIPTION">
-    <widget name="config" position="73,170" size="913,765" itemHeight="35" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="skin-background-colored" transparent="1" valign="top" font="Universe-Heavy; 20" />
-    <widget name="description" position="73,937" size="913,83" font="Universe-Regular; 18" backgroundColor="skin-background-colored" transparent="1" valign="bottom" />
+    <widget name="config" position="73,170" size="913,765" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="skin-background-colored" transparent="1" valign="top" font="Universe-Regular; 22" />
+    <widget name="description" position="73,937" size="913,83" font="Universe-Regular; 20" backgroundColor="skin-background-colored" transparent="1" valign="bottom" />
   </screen>
   <screen name="PANEL_CONFIG_SPACE">
-    <widget name="config" position="73,170" size="913,765" itemHeight="35" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="skin-background" transparent="1" valign="top" font="Universe-Heavy; 20" />
+    <widget name="config" position="73,170" size="913,765" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="skin-background" transparent="1" valign="top" font="Universe-Regular; 22" />
   </screen>
   <screen name="PANEL_CONFIG">
-    <widget name="config" position="73,166" size="913,850" itemHeight="35" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="skin-background-colored" transparent="1" valign="top" font="Universe-Regular; 20" />
+    <widget name="config" position="73,166" size="913,850" itemHeight="40" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="skin-background-colored" transparent="1" valign="top" font="Universe-Regular; 22" />
   </screen>
   <screen name="PANEL_LIST">
-    <widget name="list" position="73,166" size="913,850" itemHeight="35" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="skin-background-colored" transparent="1" valign="top" font="Universe-Heavy; 24" />
+    <widget name="list" position="73,166" size="913,850" itemHeight="35" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="skin-background-colored" transparent="1" valign="top" font="Universe-Regular; 24" />
   </screen>
   <screen name="PANEL_MENU">
     <panel name="PANEL_TOP" />
@@ -1557,19 +1557,19 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <ePixmap pixmap="GBUniverseHD/construct/symbols/network.png" position="1635,785" size="232,254" alphatest="blend" />
     <eLabel text="Network Setup" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
     <widget source="Adapter" render="Label" position="73,165" size="913,50" font="Universe-Heavy; 28" backgroundColor="skin-background" transparent="1" />
-    <widget name="config" position="73,240" size="913,340" font="Universe-Heavy; 23" itemHeight="30" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="skin-background" transparent="1" />
-    <widget source="introduction2" render="Label" position="73,928" size="913,100" font="Universe-Regular;24" halign="right" backgroundColor="skin-background-colored" transparent="1" valign="bottom" />
+    <widget name="config" position="73,240" size="913,340" font="Universe-Regular; 23" itemHeight="30" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="skin-background" transparent="1" />
+    <widget source="introduction2" render="Label" position="73,928" size="913,100" font="Universe-Regular;24" halign="left" backgroundColor="skin-background-colored" transparent="1" valign="bottom" />
     <widget source="introduction" render="Label" position="73,600" size="913,32" font="Universe-Heavy;24" halign="left" backgroundColor="skin-background" transparent="1" />
-    <widget source="IPtext" render="Label" position="73,645" size="380,30" font="Universe-Heavy; 22" halign="left" foregroundColor="skin-foreground" backgroundColor="skin-background-colored" transparent="1" />
-    <widget source="Netmasktext" render="Label" position="73,680" size="380,30" font="Universe-Heavy; 22" halign="left" foregroundColor="skin-foreground" backgroundColor="skin-background-colored" transparent="1" />
-    <widget source="Gatewaytext" render="Label" position="73,715" size="380,30" font="Universe-Heavy; 22" halign="left" foregroundColor="skin-foreground" backgroundColor="skin-background-colored" transparent="1" />
-    <widget source="DNS1text" render="Label" position="73,750" size="380,30" font="Universe-Heavy; 22" halign="left" foregroundColor="skin-foreground" backgroundColor="skin-background-colored" transparent="1" />
-    <widget source="DNS2text" render="Label" position="73,785" size="380,30" font="Universe-Heavy; 22" halign="left" foregroundColor="skin-foreground" backgroundColor="skin-background-colored" transparent="1" />
-    <widget source="IP" render="Label" position="645,645" size="341,30" font="Universe-Regular; 22" halign="right" backgroundColor="skin-background-colored" transparent="1" />
-    <widget source="Mask" render="Label" position="645,680" size="341,30" font="Universe-Regular; 22" halign="right" backgroundColor="skin-background-colored" transparent="1" />
-    <widget source="Gateway" render="Label" position="645,715" size="341,30" font="Universe-Regular; 22" halign="right" backgroundColor="skin-background-colored" transparent="1" />
-    <widget source="DNS1" render="Label" position="645,750" size="341,30" font="Universe-Regular; 22" halign="right" backgroundColor="skin-background-colored" transparent="1" />
-    <widget source="DNS2" render="Label" position="645,785" size="341,30" font="Universe-Regular; 22" halign="right" backgroundColor="skin-background-colored" transparent="1" />
+    <widget source="IPtext" render="Label" position="73,655" size="380,30" font="Universe-Heavy; 22" halign="left" foregroundColor="skin-foreground" backgroundColor="skin-background-colored" transparent="1" />
+    <widget source="Netmasktext" render="Label" position="73,700" size="380,30" font="Universe-Heavy; 22" halign="left" foregroundColor="skin-foreground" backgroundColor="skin-background-colored" transparent="1" />
+    <widget source="Gatewaytext" render="Label" position="73,750" size="380,30" font="Universe-Heavy; 22" halign="left" foregroundColor="skin-foreground" backgroundColor="skin-background-colored" transparent="1" />
+    <widget source="DNS1text" render="Label" position="73,790" size="380,30" font="Universe-Heavy; 22" halign="left" foregroundColor="skin-foreground" backgroundColor="skin-background-colored" transparent="1" />
+    <widget source="DNS2text" render="Label" position="73,835" size="380,30" font="Universe-Heavy; 22" halign="left" foregroundColor="skin-foreground" backgroundColor="skin-background-colored" transparent="1" />
+    <widget source="IP" render="Label" position="645,655" size="341,30" font="Universe-Regular; 24" halign="right" backgroundColor="skin-background-colored" transparent="1" />
+    <widget source="Mask" render="Label" position="645,700" size="341,30" font="Universe-Regular; 24" halign="right" backgroundColor="skin-background-colored" transparent="1" />
+    <widget source="Gateway" render="Label" position="645,745" size="341,30" font="Universe-Regular; 24" halign="right" backgroundColor="skin-background-colored" transparent="1" />
+    <widget source="DNS1" render="Label" position="645,790" size="341,30" font="Universe-Regular; 22" halign="right" backgroundColor="skin-background-colored" transparent="1" />
+    <widget source="DNS2" render="Label" position="645,835" size="341,30" font="Universe-Regular; 24" halign="right" backgroundColor="skin-background-colored" transparent="1" />
     <widget name="HelpWindow" position="120,460" size="1,1" transparent="1" alphatest="blend" />
   </screen>
   <screen name="AdapterSetupConfiguration" position="0,0" size="1920,1080" title="Network Configuration..." flags="wfNoBorder" backgroundColor="transparent">
@@ -1579,7 +1579,7 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <eLabel text="Network Configuration" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
     <widget source="IF" render="Label" position="73,165" size="913,50" font="Universe-Heavy; 28" backgroundColor="skin-background" transparent="1" />
     <widget name="statuspic" pixmaps="GBUniverseHD/construct/symbols/networkonline.png,GBUniverseHD/construct/symbols/network.png" transparent="1" position="1635,785" size="232,254" alphatest="blend" />
-    <widget name="menulist" position="73,231" font="Universe-Heavy; 23" size="913,620" itemHeight="30" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="skin-background" transparent="1" />
+    <widget name="menulist" position="73,231" font="Universe-Regular; 23" size="913,620" itemHeight="35" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="skin-background" transparent="1" />
     <widget source="description" render="Label" position="73,884" size="913,135" font="Universe-Regular; 24" halign="left" valign="bottom" backgroundColor="skin-background-colored" transparent="1" />
   </screen>
   <screen name="VideoEnhancementSetup" position="0, 0" flags="wfNoBorder" transparent="0" backgroundColor="transparent" size="1920, 1080">
@@ -1920,7 +1920,7 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <panel name="PANEL_CONFIG_SPACE" />
     <panel name="PANEL_BUTTONS_SOURCE_RGY_X" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/network.png" position="1635,785" size="232,254" alphatest="blend" />
-    <widget source="introduction" render="Label" position="73,946" size="913,80" font="Universe-Regular; 19" backgroundColor="skin-background-colored" transparent="1" zPosition="5" />
+    <widget source="introduction" render="Label" position="73,946" size="913,80" font="Universe-Regular; 19" valign="bottom" backgroundColor="skin-background-colored" transparent="1" zPosition="5" />
   </screen>
   <screen name="NetworkAdapterTest" position="0, 0" flags="wfNoBorder" transparent="0" title="Network test..." backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP_TITLE" />
@@ -1959,21 +1959,21 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
   <screen name="NetworkAdapterSelection" position="0, 0" flags="wfNoBorder" transparent="0" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP" />
     <panel name="PANEL_WINDOW_MEDIUM" />
-    <panel name="PANEL_BUTTONS_SOURCE_RGYB_X" />
+    <panel name="PANEL_BUTTONS_SOURCE_RGYB_X_LARGE" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/network.png" position="1635,785" size="232,254" alphatest="blend" />
     <eLabel text="Select a network adapter" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
     <widget source="list" render="Listbox" position="73,168" size="913,786" scrollbarMode="showOnDemand" transparent="1">
       <convert type="TemplatedMultiContent">{"template": [
-					MultiContentEntryPixmapAlphaTest(pos = (10, 10), size = (54, 54), png = 3), # index 3 is the interface pixmap
-					MultiContentEntryPixmapAlphaTest(pos = (71, 46), size = (15, 16), png = 4), # index 4 is the default pixmap
-					MultiContentEntryText(pos = (100, 2), size = (520, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1), # index 1 is the interfacename
-					MultiContentEntryText(pos = (100, 42), size = (520, 25), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_BOTTOM, text = 2), # index 2 is the description
+					MultiContentEntryPixmapAlphaBlend(pos = (20, 12), size = (54, 54), png = 3), # index 3 is the interface pixmap
+					MultiContentEntryPixmapAlphaBlend(pos = (81, 46), size = (15, 16), png = 4), # index 4 is the default pixmap
+					MultiContentEntryText(pos = (105, 5), size = (520, 36), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1), # index 1 is the interfacename
+					MultiContentEntryText(pos = (105, 40), size = (520, 25), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_BOTTOM, text = 2), # index 2 is the description
 				],
-				"fonts": [gFont("Universe-Heavy", 28),gFont("Universe-Heavy", 20)],
+				"fonts": [gFont("Universe-Regular", 28),gFont("Universe-Regular", 20)],
 				"itemHeight": 75
 				}</convert>
     </widget>
-    <widget source="introduction" render="Label" position="73,968" size="913,50" font="Universe-Regular; 22" halign="center" backgroundColor="skin-background-colored" transparent="1" zPosition="5" />
+    <widget source="introduction" render="Label" position="73,968" size="913,50" font="Universe-Regular; 22" halign="left" backgroundColor="skin-background-colored" transparent="1" zPosition="5" valign="bottom" noWrap="1" />
   </screen>
   <screen name="ScanIP" position="0, 0" flags="wfNoBorder" title="Network Neighbourhood" transparent="0" backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP_TITLE" />

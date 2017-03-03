@@ -521,7 +521,7 @@
     <panel name="PANEL_BUTTONS_MENU" />
     <panel name="PANEL_BUTTONS_RGYB_X" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/videos.png" position="1635,785" size="232,254" alphatest="blend" />
-    <widget name="list" position="63,346" size="1497,680" scrollbarMode="showOnDemand" itemHeight="40" transparent="1" zPosition="-1" />
+    <widget name="list" position="63,346" size="1497,680" scrollbarMode="showOnDemand" itemHeights="75,53,28" fontSizesOriginal="21,20,18" fontSizesCompact="21,18" fontSizesMinimal="21,20" transparent="1" zPosition="-1" />
     <widget name="freeDiskSpace" valign="bottom" halign="right" position="1608,599" size="258,158" font="Universe-Heavy;16" backgroundColor="background" foregroundColor="skin-foreground" transparent="1" zPosition="2" />
     <widget source="Service" render="Label" position="600,120" size="766,25" font="Universe-Heavy; 20" backgroundColor="background" transparent="1" valign="center" noWrap="1" foregroundColor="skin-foreground">
       <convert type="MovieInfo">ShortDescription</convert>

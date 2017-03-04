@@ -479,7 +479,7 @@
     <widget source="ServiceEvent" render="Progress" position="391,150" size="163,10" borderWidth="0" backgroundColor="skin-progress-background" pixmap="GBUniverseHD/colors/00ffffff.png" transparent="1" zPosition="1">
       <convert type="EventTime">Progress</convert>
     </widget>
-    <widget source="ServiceEvent" render="Label" position="65,180" size="1497,96" font="Universe-Regular; 18" backgroundColor="background" transparent="1" valign="top" zPosition="0">
+    <widget source="ServiceEvent" render="Label" position="65,180" size="1497,96" font="Universe-Regular; 23" backgroundColor="background" transparent="1" valign="top" zPosition="0">
       <convert type="EventName">ExtendedDescription</convert>
     </widget>
     <widget position="62,40" size="300,130" render="Picon" source="ServiceEvent" alphatest="blend" zPosition="2">
@@ -521,7 +521,7 @@
     <panel name="PANEL_BUTTONS_MENU" />
     <panel name="PANEL_BUTTONS_RGYB_X" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/videos.png" position="1635,785" size="232,254" alphatest="blend" />
-    <widget name="list" position="63,346" size="1497,680" scrollbarMode="showOnDemand" itemHeights="75,53,28" fontSizesOriginal="21,20,18" fontSizesCompact="21,18" fontSizesMinimal="21,20" transparent="1" zPosition="-1" />
+    <widget name="list" position="63,346" size="1497,680" scrollbarMode="showOnDemand" itemHeight="40" transparent="1" zPosition="-1" />
     <widget name="freeDiskSpace" valign="bottom" halign="right" position="1608,599" size="258,158" font="Universe-Heavy;16" backgroundColor="background" foregroundColor="skin-foreground" transparent="1" zPosition="2" />
     <widget source="Service" render="Label" position="600,120" size="766,25" font="Universe-Heavy; 20" backgroundColor="background" transparent="1" valign="center" noWrap="1" foregroundColor="skin-foreground">
       <convert type="MovieInfo">ShortDescription</convert>

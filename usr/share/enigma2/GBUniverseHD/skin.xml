@@ -1787,7 +1787,7 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <widget name="oktext" zPosition="1" backgroundColor="background" size="231,40" foregroundColor="skin-foreground" position="1612,338" font="Universe-Heavy; 20" transparent="1" halign="right" />
   </screen>
   <screen name="ServiceInfoSimple" position="0,0" size="1920, 1080" title="Serviceinfo" flags="wfNoBorder" backgroundColor="transparent">
-    <panel name="PANEL_BUTTONS_RGYB_X" />
+    <panel name="PANEL_BUTTONS_RGYB_X_LARGE" />
     <panel name="PANEL_TOP_TITLE" />
     <panel name="PANEL_WINDOW_MEDIUM" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/channelinfo.png" position="1635,785" size="232,254" alphatest="blend" />
@@ -2821,4 +2821,6 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
 	</widget>
 
 
+</screen><screen name="ServiceInfo" position="0, 0" flags="wfNoBorders" transparent="0" backgroundColor="transparent" size="1920, 1080">
+    <panel name="ServiceInfoSimple" />
 </screen></skin>

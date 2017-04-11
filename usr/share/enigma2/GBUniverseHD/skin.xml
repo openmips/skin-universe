@@ -1666,8 +1666,9 @@ MultiContentEntryText(pos = (50, 43), size = (640, 60), font = 1, flags = RT_HAL
     <panel name="PANEL_BUTTONS_RG_X" />
     <ePixmap pixmap="GBUniverseHD/construct/symbols/disk.png" position="1635,785" size="232,254" alphatest="blend" />
     <eLabel text="Image Backup" position="65,52" size="1300,78" font="Universe-Heavy; 50" foregroundColor="skin-foreground" backgroundColor="background" transparent="1" noWrap="1" valign="bottom" />
-    <widget name="info-hdd" position="73,170" zPosition="1" size="913,350" font="Universe-Heavy; 22" halign="left" valign="top" transparent="1" backgroundColor="skin-background" />
-    <widget name="info-usb" position="73,540" zPosition="1" size="913,480" font="Universe-Regular; 22" halign="left" valign="top" transparent="1" backgroundColor="skin-background-colored" />
+    <widget name="info-hdd" position="73,170" zPosition="1" size="913,150" font="Universe-Heavy; 22" halign="left" valign="top" transparent="1" backgroundColor="skin-background" />
+    <widget name="info-multi" position="73,320" zPosition="1" size="913,150" font="Universe-Regular; 22" halign="left" valign="top" transparent="1" backgroundColor="skin-background-colored" />
+    <widget name="info-usb" position="73,470" zPosition="1" size="913,250" font="Universe-Regular; 22" halign="left" valign="top" transparent="1" backgroundColor="skin-background-colored" />
   </screen>
   <screen name="Console" position="0, 0" flags="wfNoBorder" transparent="0" title="Command execution..." backgroundColor="transparent" size="1920, 1080">
     <panel name="PANEL_TOP_TITLE" />
